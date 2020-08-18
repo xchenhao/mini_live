@@ -1,0 +1,1 @@
+a:2:{s:16:"banned_usernames";s:0:"";s:7:"storage";a:2:{s:4:"type";s:5:"Qiniu";s:5:"Qiniu";a:4:{s:9:"accessKey";s:40:"hPXhnmRMNI06D1uKJyzVp0_Nf1-h6WqNz1lco0MC";s:9:"secretKey";s:40:"bvHlZtoksv0O9zDxYT0EATopVwvHVcN7l4mw-Q1q";s:6:"domain";s:25:"oyocbt8fu.bkt.clouddn.com";s:6:"bucket";s:9:"phonelive";}}}

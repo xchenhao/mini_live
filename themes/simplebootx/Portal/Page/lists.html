@@ -1,0 +1,15 @@
+
+<tc_include file="Public:header" />
+<tc_include file="Public:navbar" />
+
+<body class="body-news-list">
+	<div class="container">
+	  <ul class="page_list">
+		  <volist name="page" id="vo">
+				<li><a href="./index.php?g=portal&m=page&a=news&id={$vo.id}">{$vo.post_title}</a></li>
+			</volist>
+		</ul>
+	</div>
+	<tc_include file="Public:footer" />
+</body>
+</html>

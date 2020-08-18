@@ -1,0 +1,41 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a>我的结算明细</a></li>
+		</ul>
+
+		<div><a class="btn" href="{:U('user/agent_total')}">返回</a><br><br></div>
+
+		<table class="table table-hover table-bordered">
+			<thead>
+				<tr>
+					<th width="50">ID</th>
+					<th>结算前金额(元)</th>
+					<th>已结算金额(元)</th>
+					<th>待结算金额(元)</th>
+					<th>结算人</th>
+					<th>结算时间</th>
+				</tr>
+			</thead>
+			<tbody>
+				
+				<foreach name="lists" item="vo">
+				<tr>
+					<td>{$vo.id}</td>
+					<td>{$vo.settle_before_money}</td>
+					<td>{$vo.settle_money}</td>
+					<td>{$vo.settle_after_money}</td>
+					<td>{$vo.settle_user_login}</td>
+					<td>{$vo.addtime|date="Y-m-d H:i:s",###}</td>
+					
+				</tr>
+				</foreach>
+			</tbody>
+		</table>
+		<div class="pagination">{$page}</div>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

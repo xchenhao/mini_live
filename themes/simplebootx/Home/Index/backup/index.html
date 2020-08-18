@@ -1,0 +1,193 @@
+<tc_include file="Public:header" />
+<tc_include file="Public:navbar" />
+
+<body class="home-index">
+	<style>
+		.ul1 li {
+			position: relative;
+		}
+
+		.record-live::before,
+		.none-live::before,
+		.live::before {
+			position: absolute;
+			display: block;
+			width: 50px;
+			height: 20px;
+			color: #fff;
+			text-align: center;
+			line-height: 20px;
+			right: 20px;
+			top: 10px;
+			z-index: 3;
+			background: url("./public/home/images/live.png") no-repeat center;
+
+		}
+
+		.record-live::before {
+			content: '回放';
+		}
+
+		.live::before {
+			content: '直播中';
+		}
+
+		.none-live::before {
+			content: '未开播';
+		}
+
+		.banner_info_box {
+			margin-top: -71px;
+			background: url(/public/assets/images/banner_bg.jpg) center center no-repeat;
+			background-size: cover;
+		}
+
+		.special-w3 img {
+			width: 100%;
+		}
+
+		.special-w3 .menu-bottom {
+			padding-top: 10px;
+		}
+
+		.thumbnail img{
+			width: 335px;
+			height: 200px;
+		}
+		
+	</style>
+
+	<!-- Header -->
+	<header id="head">
+		<div class="container">
+			<div class="fluid_container">
+				<div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
+					<div data-thumb="/public/assets/images/slides/thumbs/bridge.jpg" data-src="/public/assets/images/slides/bridge.jpg">
+					</div>
+					<div data-thumb="/public/assets/images/slides/thumbs/road.jpg" data-src="/public/assets/images/slides/road.jpg">
+					</div>
+					<div data-thumb="/public/assets/images/slides/thumbs/sea.jpg" data-src="/public/assets/images/slides/sea.jpg">
+					</div>
+					<div data-thumb="/public/assets/images/slides/thumbs/shelter.jpg" data-src="/public/assets/images/slides/shelter.jpg">
+					</div>
+				</div><!-- #camera_wrap_3 -->
+			</div><!-- .fluid_container -->
+		</div>
+	</header>
+	<!-- /Header -->
+
+	<section class="news-box top-margin">
+		<div class="container">
+			<h2>
+				<span>才 艺 直 播 秀</span>
+				<p style="font-size: 14px; color: #122B40;margin-bottom: 15px; margin-top: 15px;">
+					{$live_show_time}
+				</p>
+			</h2>
+			<div class="row">
+				<volist name="live_show" id="v">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 <if condition=" $v['islive'] eq '1'">live live{$v['uid']}<else/>none-live</if>"
+					 onclick="window.location.href='./{$v['uid']}';">
+						<div class="newsBox">
+							<div class="thumbnail">
+								<figure><img src="{$v['thumb']}" alt=""></figure>
+								<div class="caption maxheight2">
+									<div class="box_inner">
+										<div class="box">
+											<p class="title"><strong>{$v['user_nicename']}</strong></p>
+											<p>
+												<if condition=" $v['islive'] eq '1'">直播中
+													<else />未开播</if>
+											</p>
+										</div>
+										<div>
+											<a href="./{$v['uid']}" class="btn-inline">立即观看</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</volist>
+			</div>
+		</div>
+	</section>
+
+	<section class="news-box top-margin">
+		<div class="container">
+			<h2>
+				<span>才 艺 直 播 秀</span>
+				<p style="font-size: 14px; color: #122B40;margin-bottom: 15px; margin-top: 15px;">
+					精彩回放
+				</p>
+			</h2>
+			<div class="row">
+				<volist name="live_record" id="v">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 record-live" onclick="window.location.href='/index.php?g=portal&m=page&a=record&id={$v['uid']}';">
+						<div class="newsBox">
+							<div class="thumbnail">
+								<figure><img src="{$v['thumb']}" alt=""></figure>
+								<div class="caption maxheight2">
+									<div class="box_inner">
+										<div class="box">
+											<p class="title"><strong>{$v['user_nicename']}</strong></p>
+										</div>
+										<div>
+											<a href="/index.php?g=portal&m=page&a=record&id={$v['uid']}" class="btn-inline">立即观看</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</volist>
+			</div>
+		</div>
+	</section>
+
+
+
+	<div class="side side-left">
+		<h3>
+			才艺直播秀, 有你才好看
+		</h3>
+	</div>
+	<div class="side side-right">
+		<h3>
+			诚聘英才, 欢迎加入我们
+		</h3>
+	</div>
+	<style>
+		.side{
+			width: 160px;
+			height: 450px;
+			position: fixed;
+			top: 800px;
+		}
+		.side h3{
+			margin: 0px;
+			padding: 0px;
+			width: 100%;
+			height: 100%;
+			font-size: 30px;
+			color: #FFFFFF;
+			padding: 30px 65px;
+			word-wrap: break-word;
+			text-shadow: 5px 5px 5px #000;
+			background-color: rgba(0,0,0,0.3);
+		}
+		.side-left{
+			background: url("/public/assets/images/a1.png") center center no-repeat;
+			background-size: cover;
+			left: 15px;
+		}
+		.side-right{
+			background: url("/public/assets/images/a2.png") center center no-repeat;
+			background-size: cover;
+			right: 15px;
+		}
+	</style>
+	
+	<tc_include file="Public:footer" />
+</body>
+</html>

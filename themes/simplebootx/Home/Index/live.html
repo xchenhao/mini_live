@@ -1,0 +1,25 @@
+<tc_include file="Public:header" />
+<tc_include file="Public:navbar" />
+
+<body class="home-live">
+<div class="container content">
+		<div class="mainBox clearfix">
+				<div class="module-title">
+						<h2><em>Live online</em>在线直播中</h2>
+				</div>
+				<div class="row m-list">
+						<volist name="live_show" id="v">
+								<div class="col-md-3 m-item <if condition=" $v['islive'] eq '1'">live live{$v['uid']}
+										<else/>
+										none-live
+										</if>
+										" onclick="alert('主播未开播');">
+										<div class="item"> <img src="{$v['thumb']}" class="img-fluid">
+												<h5 class="username"> <img src="{$v['thumb']}" class="img-fluid"> {$v['user_nicename']} </h5>
+										</div>
+								</div>
+						</volist>
+				</div>
+		</div>
+</div>
+<tc_include file="Public:footer" />

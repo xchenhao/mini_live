@@ -1,0 +1,34 @@
+<tc_include file="Public:header" />
+<tc_include file="Public:navbar" />
+
+<body class="home-record-play">
+<div class="container content">
+		<div class="paly-video-box">
+				<div class="author"> <img src="{$anchorinfo.avatar}" class="img-fluid">
+						<h5>{$anchorinfo.user_nicename}</h5>
+				</div>
+				<video controls autoplay style="max-height: 600px; background-color: #000000;"> <source 
+						<if condition="$user.record_video neq ''">src="{$user.record_video}"
+								<else/>
+								src="{$url}"</if>
+						type="video/mp4">
+						</source>
+				</video>
+		</div>
+</div>
+<div class="container content">
+		
+		<div class="module-title" style="width: auto;">
+				<h2><em>Wonderful playback</em>更多精彩回放</h2>
+		</div>
+		<div class="row m-list">
+				<volist name="live_record" id="v">
+						<div class="col-md-3 m-item record-live" onClick="window.location.href='/index.php?g=portal&m=page&a=record&id={$v['uid']}';">
+								<div class="item"> <img src="{$v['thumb']}" class="img-fluid">
+										<h5 class="username"> <img src="{$v['thumb']}" class="img-fluid"> {$v['user_nicename']} </h5>
+								</div>
+						</div>
+				</volist>
+		</div>
+</div>
+<tc_include file="Public:footer" />

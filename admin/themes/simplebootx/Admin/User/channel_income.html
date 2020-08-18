@@ -1,0 +1,56 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li> <a href="{:U('user/channel_index')}">渠道</a></li>
+			<li class="active"><a >收益统计</a></li>
+		</ul>
+
+		<!-- <form class="well form-search" method="post" action="{:U('user/channel_regist')}">
+			
+			关键字： 
+			<input type="text" name="keyword" style="width: 200px;" value="{$formget.keyword}" placeholder="请输入代理用户名或ID...">
+			<input type="submit" class="btn btn-primary" value="搜索">		
+		</form>
+		 -->
+		<if condition="$dateStatus eq 'today'">今日
+		<elseif condition="$dateStatus eq 'yesterday'"/>昨日
+		<else />本月</if>
+		收益总额：{$sum}&nbsp;&nbsp;&nbsp;
+		<a class="btn" href="{:U('user/channel_index')}">{:L('BACK')}</a>
+
+		<table class="table table-hover table-bordered" style="margin-top: 20px;">
+			<thead>
+				<tr>
+					<th width="50">ID</th>
+					<th>充值用户</th>
+					<!-- <th>充值金额</th>
+					<th>收益比例</th> -->
+					<th>收益金额</th>
+					<th>收益类型</th>
+					<th>收益时间</th>
+				</tr>
+			</thead>
+			<tbody>
+				
+				<php>$type=array("1"=>"充值")</php>
+				<foreach name="incomelists" item="vo">
+				<tr>
+					<td>{$vo.id}</td>
+					<td>{$vo.senduser}({$vo.senduid})</td>
+					<!-- <td>{$vo.charge_money}</td>
+					<td>{$vo.percent}%</td> -->
+					<td>{$vo.money}</td>
+					<td>{$type[$vo['type']]}</td>
+					<td>{$vo.addtime|date="Y-m-d H:i:s",###}</td>
+					
+				</tr>
+				</foreach>
+			</tbody>
+		</table>
+		<div class="pagination">{$page}</div>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

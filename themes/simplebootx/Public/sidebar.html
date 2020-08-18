@@ -1,0 +1,30 @@
+<div class="side-module">
+	<div class="title"><span>主播推荐</span></div>
+	
+	<div class="jumbotron" style="background:url({$live_show[0]['thumb']});background-size:100% auto;min-height: 200px;"
+	 onclick="window.location.href='./{$live_show[0]['uid']}';">
+		<p>{$live_show[0]['user_nicename']}</p>
+	</div>
+
+</div>
+<div class="side-module">
+	<div class="title"><span>回放推荐</span></div>
+	
+	<div class="jumbotron" style="background:url(/public/video/{$live_record[0]['uid']}.jpg);background-size:100% auto;min-height: 200px;"
+	 onclick="window.location.href='/index.php?g=portal&m=page&a=record&id={$live_record[0]['uid']}';">
+		<p>{$live_record[0]['user_nicename']}</p>
+	</div>
+</div>
+<div class="side-module">
+	<div class="title"><span>杂谈推荐</span></div>
+	<ul class="page_list">
+		<volist name="page" id="vo">
+			<li class="item">
+				<a class="post-title" href="./index.php?g=portal&m=page&a=news&id={$vo.id}">{$vo.post_title}</a>
+				<p class="post-content"></p>
+				<div class="post-content-hidden" style="display: none;">{$vo.post_content}</div>
+				<p class="post-meta">{$vo.post_date}</p>
+			</li>
+		</volist>
+	</ul>
+</div>

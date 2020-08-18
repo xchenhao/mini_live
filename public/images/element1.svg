@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="428px" height="354px" viewBox="0 0 428 354" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>元素1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFEE00" offset="0%"></stop>
+            <stop stop-color="#FFD900" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-953.000000, -658.000000)" fill="url(#linearGradient-1)">
+            <g id="元素1" transform="translate(947.000000, 652.000000)">
+                <rect id="Rectangle-12" transform="translate(273.500000, 175.816540) rotate(-45.000000) translate(-273.500000, -175.816540) " x="54" y="160.81654" width="439" height="30" rx="15"></rect>
+                <rect id="Rectangle-12-Copy" transform="translate(183.470563, 182.787103) rotate(-45.000000) translate(-183.470563, -182.787103) " x="-60.0294373" y="167.787103" width="487" height="30" rx="15"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

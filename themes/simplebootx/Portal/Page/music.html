@@ -1,0 +1,128 @@
+<tc_include file="Public:header" />
+<tc_include file="Public:navbar" />
+
+<body class="body-music">
+	<div id="content">
+		<!-- 音乐欣赏 -->
+		<style>
+			body {
+				background: url(/public/assets/images/musicbg.jpg) center center no-repeat;
+				background-size: cover;
+			}
+
+			#content {
+				min-height: 768px;
+			}
+
+			.title_t {
+				padding-top: 30px;
+				font-size: 28px;
+				font-weight: bold;
+				text-align: center;
+				margin: 30px auto 30px auto;
+				color: #FFFFFF;
+			}
+			#music-list{
+				margin: 0px;
+				padding: 0px;
+				float: left;
+			}
+			#music-list li{
+				float: left;
+				display: inline-block;
+				width: 25%;
+				height: 50px;
+				line-height: 50px;
+				padding: 0px 15px;
+				background-color: rgba(255,255,255,.6);
+				cursor: pointer;
+				border: 0.5px solid #FFFFFF;
+			}
+
+			#player-box{
+				display: block;
+			}
+			#player-name{
+				text-align: center;
+				color: #FFFFFF;
+			}
+			#player audio{
+				width: 100%;
+				background-color: #EEEEEE;
+			}
+
+		</style>
+
+		<div class="title_t">
+			<i class="i1"></i>
+			<span class="t">音乐欣赏</span>
+		</div>
+		<div class="container">
+			<div id="music">
+				<ul id="music-list">
+					<!-- <li _id="/public/music/1.mp3">小人国-王梵瑞</li> -->
+					<li _id="/public/music/2.mp3">山水眩月 - 钢琴曲 摄影艺术（许嵩）</li>
+					<li _id="/public/music/3.mp3">我不要你离开</li>
+					<li _id="/public/music/4.mp3">我们就喜欢这样-耀乐团</li>
+					<li _id="/public/music/5.mp3">王啸坤 - 天下</li>
+					<li _id="/public/music/6.mp3">王啸坤 - 左右偏离</li>
+					<li _id="/public/music/7.mp3">王啸坤 - 重庆3905</li>
+					<li _id="/public/music/8.mp3">王啸坤 - 长白山</li>
+					<li _id="/public/music/9.mp3">璀璨-耀乐团</li>
+					<li _id="/public/music/10.mp3">米迪拉-耀乐团</li>
+					<li _id="/public/music/11.mp3">薛之谦 - 下雨了</li>
+					<li _id="/public/music/12.mp3">薛之谦 - 丑八怪</li>
+					<li _id="/public/music/13.mp3">薛之谦 - 你过的好吗</li>
+					<li _id="/public/music/14.mp3">薛之谦 - 你还要我怎样</li>
+					<li _id="/public/music/15.mp3">薛之谦 - 其实</li>
+					<li _id="/public/music/16.mp3">薛之谦 - 刚刚好</li>
+					<li _id="/public/music/17.mp3">薛之谦 - 初学者</li>
+					<li _id="/public/music/18.mp3">薛之谦 - 意外</li>
+					<li _id="/public/music/19.mp3">薛之谦 - 我们爱过就好 (Inst.) - instrumental</li>
+					<li _id="/public/music/20.mp3">薛之谦 - 我好像在哪见过你</li>
+					<li _id="/public/music/21.mp3">薛之谦 - 我害怕</li>
+					<li _id="/public/music/22.mp3">薛之谦 - 我知道你都知道</li>
+					<li _id="/public/music/23.mp3">薛之谦 - 方圆几里</li>
+					<li _id="/public/music/24.mp3">薛之谦 - 来日方长</li>
+					<li _id="/public/music/25.mp3">薛之谦 - 演员</li>
+					<li _id="/public/music/26.mp3">薛之谦 - 绅士</li>
+					<li _id="/public/music/27.mp3">薛之谦 - 高尚</li>
+					<li _id="/public/music/28.mp3">许嵩 - 奇谈</li>
+					<li _id="/public/music/29.mp3">许嵩 - 平行宇宙</li>
+					<li _id="/public/music/30.mp3">许嵩 - 幻胖</li>
+					<li _id="/public/music/31.mp3">许嵩 - 摆脱</li>
+					<li _id="/public/music/32.mp3">许嵩 - 早睡身体好</li>
+					<li _id="/public/music/33.mp3">许嵩 - 最佳歌手</li>
+					<li _id="/public/music/34.mp3">许嵩 - 燕归巢</li>
+					<li _id="/public/music/35.mp3">许嵩. - 雅俗共赏</li>
+					<li _id="/public/music/36.mp3">跟我回家-耀乐团</li>
+					<li _id="/public/music/37.mp3">银河日记-耀乐团</li>
+					<li _id="/public/music/38.mp3">雀鸟-耀乐团</li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="container">
+			<div id="player-box">
+				<h5 id="player-name">山水眩月 - 钢琴曲 摄影艺术（许嵩）</h5>
+				<div id="player">
+					<audio src="/public/music/2.mp3" controls="controls"></audio>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<tc_include file="Public:footer" />
+
+	<script>
+		$("#music li").click(function() {
+			var music_url = $(this).attr("_id");
+			var music_name = $(this).text();
+			var audio_html = '<audio src="' + music_url + '" controls="controls"></audio>';
+			$("#player").empty();
+			$("#player").append(audio_html);
+			$("#player-name").text(music_name);
+		})
+	</script>
+</body>
+</html>

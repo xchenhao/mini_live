@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-md">
+		<div class="container-fluid" style="width: 1200px; margin: 0 auto;">
+				
+				<div class="logo"><a href="/"><img src="/public/images/logo.png" width="170" alt="" /></a></div>
+				<ul class="list-group sidebar-nav">
+						<li class="list-group-item"> <a href="/" class="on">首页 </a> </li>
+						<li class="list-group-item"> <a href="/index.php?g=home&m=index&a=live"> 热门直播 </a> </li>
+						<li class="list-group-item"> <a href="/index.php?g=home&m=index&a=record"> 精彩回放 </a> </li>
+						<li class="list-group-item"> <a href="/index.php?g=portal&m=page&a=news&id=25"> 直播公约 </a> </li>
+						<li class="list-group-item"> <a href="/index.php?g=portal&m=page&a=news&id=26"> 直播服务协议 </a> </li>
+						<li class="list-group-item"> <a href="/index.php?g=portal&m=page&a=news&id=27"> 直播承诺书</a> </li>
+						<li class="list-group-item"> <a href="/index.php?g=portal&m=page&a=news&id=28"> 纠纷处理</a> </li>
+						<li class="list-group-item"> <a href="/admin/"> 后台监管</a> </li>
+						<if condition="!$user">
+								<li class="list-group-item"> <a class="alink" href="#" data-toggle="modal" data-target="#registerModal"> 注册 </a> </li>
+								<li class="list-group-item"> <a class="alink" href="#" data-toggle="modal" data-target="#loginModal"> 登录 </a> </li>
+								<else />
+								<li class="list-group-item">
+										<div id="nickname" style="display: none;">{$user['user_nicename']}</div>
+										<a href="./index.php?m=Personal&a=index">{$user['user_nicename']}</a> </li>
+								<li class="list-group-item"> <a href="./index.php?m=Personal&a=live">我的直播</a> </li>
+								<li class="list-group-item"> <a href="#" onclick="Login.logout()">退出登录</a> </li>
+						</if>
+				</ul>
+		</div>
+		<div class="img01"><img src="/public/images/mainimg.jpg" width="100%" alt="" /></div>
+</nav>
+<tc_include file="Public:modal" />

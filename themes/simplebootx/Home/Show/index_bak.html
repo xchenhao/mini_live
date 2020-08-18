@@ -1,0 +1,271 @@
+<tc_include file="Public:header" />
+<tc_include file="Public:navbar" />
+<script src="/public/home/show/js/livejs/video.js"></script>
+<script src="/public/home/show/js/livejs/videojs-ie8.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/public/home/show/js/livejs/video-js.css"/>
+
+<body class="home-show">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/show/css/show.css"/>
+<link rel="stylesheet" type="text/css" href="/public/assets/src/css/show.css"/>
+<script src="/public/assets/js/jquery3.3.1.min.js"></script>
+
+<!--<script src="/public/assets/js/jquery3.3.1.min.js"></script>-->
+
+<div class="container show-content">
+	<div class="row">
+		<!--直播-->
+		<div class="col-md-6 left">
+			<!--            <div class="video-box">-->
+			<!--                <video id="video"></video>-->
+			<!--                <p id="loading-box"><span id="loading">拼命加载中...</span></p>-->
+			<!--                <a id="play" href="javascript:void(0)"></a>-->
+			<!--            </div>-->
+			<video id='myvideo' class="video-js vjs-default-skin" controls>
+				<!-- RTMP直播源地址-->
+				<source src="{$pull}">
+			</video>
+
+
+		</div>
+		<!--聊天-->
+
+</div>
+
+
+	<div class="col-md-6 right">
+	<!--主播信息-->
+	<div class="author">
+		<div class="media">
+			<img src="{$anchorinfo.avatar}" class="img-fluid" />
+			<div class="media-body">
+				<h5>{$anchorinfo.user_nicename}</h5>
+				<p>ID：{$anchorinfo.id}</p>
+				<a class="btn btn-primary BTN-add-attention" href="javascript:void(0)">+关注</a>
+			</div>
+		</div>
+	</div>
+
+	<!--信息通知-->
+	<div class="chart-area">
+		<!-- 信息通知 -->
+		<div class="SR-area-chat" id="LF-area-chat">
+			<div class="chat-msg" id="LF-chat-msg">
+				<!-- 礼物记录 -->
+				<div class="MR-msg">
+					<div class="msg-gift player-main" id="msg_gift">
+						<div class="MR-chat">
+							<div class="boarder">
+								<ul class="clearfix">
+
+								</ul>
+							</div>
+							<div class="scroller"></div>
+						</div>
+						<div class="hjPopbox"></div>
+					</div>
+					<span class="MR-sound-toggle hide">声效开</span>
+					<div class="MR-sound-tip hide"></div>
+				</div>
+				<!-- 聊天记录 -->
+				<div id="LF-chat-msg-area" class="MR-msg">
+					<div class="msg-chat">
+						<div class="MR-chat">
+							<div class="boarder">
+								<ul class="clearfix">
+									<!-- <li><span class="fake-name">管理小助手：</span>亲，想知道播客最新消息么？请“关注”Ta。</li> -->
+								</ul>
+							</div>
+							<!-- <div class="scroller"></div> -->
+							<span class="ICON-lock-screen hide"></span>
+						</div>
+					</div>
+					<div class="MR-msg-notice clearfix hide">
+						<span class="title">弹幕</span>
+						<div class="msg-content"></div>
+					</div>
+				</div>
+				<div class="control-bar">
+					<cite></cite>
+					<span></span>
+				</div>
+				<div id="MR-brand"></div>
+			</div>
+			<div class="chat-talk" id="LF-chat-talk">
+				<div class="MR-talk">
+					<span class="send-btn">发送</span>
+					<div class="speaker">
+						<input type="text" value="想对主播说点什么？" />
+						<cite>30</cite>
+					</div>
+					<div class="emoticon-toggle-panel">
+						<!-- <a href="javascript:void(0);" class="BTN-face-toggle"></a> -->
+					</div>
+				</div>
+				<!-- 喇叭 -->
+				<div class="MR-horn">
+					<div class="toggle"></div>
+					<div class="selector M-bubble hide">
+						<div class="arrow-right"></div>
+						<span class="closed"></span>
+						<div class="detail">
+							<div class="btn gold hide" data-gid="" data-num="0">
+								<p class="name">金喇叭<span class="num"></span></p>
+								<p class="price"><i class="ICON-coins">200</i></p>
+							</div>
+							<div class="btn site" data-gid="" data-num="0">
+								<p class="name">弹幕<span class="num"></span></p>
+								<p class="price"><i class="ICON-coins">{$getConfigPri['barrage_fee']}</i></p>
+							</div>
+						</div>
+					</div>
+					<div class="dialog hide">
+						<h4 class="gold"><i></i></h4>
+						<div class="detail">
+							<textarea>请输入...</textarea>
+							<div class="opt clearfix">
+								<span></span>
+								<span class="num" style="display: none;">，本次免费</span>
+								<input type="button" value="发送" class="horn-send" />
+							</div>
+							<span class="closed"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 礼物 -->
+			<div class="chat-gift" id="LF-chat-gift">
+				<div class="MR-gift">
+					<div class="gift-panel">
+						<ul class="gift-tab">
+							<li data-index="0" class="on">热门<i class="dot-new"></i></li>
+							<!-- <li data-index="1">豪华</li>
+                            <li data-index="2">特殊</li>
+                            <li data-index="3">专属</li>
+                            <li data-index="4">我的包裹<i class="dot-tip hide"></i></li> -->
+						</ul>
+						<div class="gift-con">
+							<div class="gift-group">
+
+								<div class="gift-wrap">
+									<div class="M-arrow-scroll">
+										<span class="left-arrow hide"></span>
+										<span class="right-arrow"></span>
+										<div class="con">
+											<div class="scroll">
+												<ul class="clearfix">
+													<volist name="giftinfo" id="v">
+														<li class="gift " data-locked="0" data-title="{$v['giftname']}" data-name="{$v['giftname']}" data-id="{$v['id']}" data-price="{$v['needcoin']}">
+															<div class="gift-pic">
+																<img src="{$v['gifticon']}" />
+															</div>
+															<if condition="$v['type'] eq '1'">
+																<div class="gift-lian">
+																	连
+																</div>
+															</if>
+														</li>
+													</volist>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="MR-gift-tip hide">
+									<div class="tip-content">
+										<img class="tip-img" src="" >
+										<div class="gift-tip-con">
+											<span class="gift-tip-name"></span>
+											<span class="gift-tip-price"></span>
+										</div>
+										<div class="gift-tip-desc"></div>
+									</div>
+								</div>
+							</div>
+							<div class="gift-footer clearfix">
+								<!-- 星星 -->
+								<div class="MR-free-gift hide">
+									<div class="MR-star">
+										<div class="progress"></div>
+										<div class="icon"></div>
+										<div class="count">
+											40
+										</div>
+									</div>
+									<ul class="freegift-more clrearfix">
+										<li class="more-btn star-0">
+											<div class="icon"></div>
+										</li>
+										<li class="more-btn star-1">
+											<div class="icon"></div>
+										</li>
+										<li class="more-btn star-10">
+											<div class="icon"></div>
+											<div class="bg">
+												<div class="tips ">
+													星动
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<!-- 点歌 -->
+								<div class="MR-app MR-app-content hide">
+									<div class="MR-app-item M-app-UI-enable">
+										<span class="icon app-icon-song"></span>
+										<span class="title">点歌</span>
+									</div>
+								</div>
+								<!-- 礼物赠送数量 -->
+								<div class="MR-moregift">
+									<a class="send-btn" href="javascript:void(0);">赠送</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 头条 -->
+			<div class="MR-big-gift">
+				<div class="out-boxer" style="opacity: 1; top: 0px;">
+					<div class="high-boxer" style="margin-left: -149.5px;">
+						<a href="/room/67656" target="_blank">
+							<cite class="photoer"><img src="http://static.youku.com/ddshow/img/avatar/80/33.jpg" /></cite>
+							<cite class="desc">
+								<span class="user" title="榴莲的小狮子">榴莲的小狮子</span>
+								<span class="txt">送给</span>
+								<span class="name" title="大大元气满满">大大元气满满</span>心心相印
+							</cite>
+							<span class="gift-pic"><img src="http://static.youku.com/ddshow/img/lfgift/xxxy5_80_80.png" /></span>
+							<cite class="desc gift-num">x188</cite>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+</div>
+
+<script>
+	var _DATA = {};
+	_DATA.config = {$configj};
+	_DATA.anchor = {$anchorinfoj};
+	_DATA.live = {$liveinfoj};
+	_DATA.gift = {$giftinfoj};
+	_DATA.user = {$userinfo};
+	var charge_interval = null;
+	var giftQueue = new Array();
+	var giftPlayState = 0;
+	var carQueue = new Array();
+	var carPlayState = 0;
+</script>
+
+
+<script>
+	var player = videojs('myvideo', {}, function(){console.log('videojs播放器初始化成功')})
+	console.log(player);
+	player.play();
+</script>
+<tc_include file="Public:footer" />

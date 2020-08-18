@@ -1,0 +1,715 @@
+<tc_include file="Public:header" />
+<tc_include file="Public:navbar" />
+<script src="/public/jsdev/flv.js"></script>
+
+<link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.8.2/skins/default/aliplayer-min.css" />
+<script type="text/javascript" charset="utf-8"
+    src="https://g.alicdn.com/de/prismplayer/2.8.2/aliplayer-min.js"></script>
+
+
+
+<body class="home-show">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/show/css/show.css" />
+    <link rel="stylesheet" type="text/css" href="/public/assets/src/css/show.css" />
+
+    <div class="container show-content">
+        <div class="row">
+            <div class="col-md-8 left">
+
+                <div class="mainContainer" style="margin-top:80px">
+                    <div>
+                        <div id="streamURL">
+                            <div class="url-input" style="display: none">
+                                <label for="sURL">Stream URL:</label>
+                                <input id="sURL" type="text" value="{$pull}" />
+                                <button onClick="switch_mds()">Switch to MediaDataSource</button>
+                            </div>
+                            <div class="options" style="display: none">
+                                <input type="checkbox" id="isLive" onChange="saveSettings()" />
+                                <label for="isLive" checked>isLive</label>
+                                <input type="checkbox" id="withCredentials" onChange="saveSettings()" />
+                                <label for="withCredentials">withCredentials</label>
+                                <input type="checkbox" id="hasAudio" onChange="saveSettings()" checked />
+                                <label for="hasAudio">hasAudio</label>
+                                <input type="checkbox" id="hasVideo" onChange="saveSettings()" checked />
+                                <label for="hasVideo">hasVideo</label>
+                            </div>
+                        </div>
+                        <div id="mediaSourceURL" class="hidden" style="display:none">
+                            <div class="url-input">
+                                <label for="msURL">MediaDataSource JsonURL:</label>
+                                <input id="msURL" type="text" value="http://127.0.0.1/flv/7182741.json" />
+                                <button onClick="switch_url()">Switch to URL</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-container">
+                        <div>
+                            <video name="videoElement" class="centeredVideo" controls autoplay
+                                style="    height: 600px; display: none;">
+                                您的浏览器不支持
+                            </video>
+
+                            <div class="h5info" style="
+ position: absolute;
+left: 50%;
+top: 50%;
+margin-top: -25px;
+margin-left: -75px;
+background-color: #3e3c3cb8;
+color: #fff;
+font-size: 30px;
+">主播未上线</div>
+
+
+                            <div class="prism-player" id="player-con"></div>
+
+                          
+
+                        </div>
+                    </div>
+                    <div class="controls" style="display: none">
+                        <button onClick="flv_load()">Load</button>
+                        <button onClick="flv_start()">Start</button>
+                        <button onClick="flv_pause()">Pause</button>
+                        <button onClick="flv_destroy()">Destroy</button>
+                        <input style="width:100px" type="text" name="seekpoint" />
+                        <button onClick="flv_seekto()">SeekTo</button>
+                    </div>
+                    <textarea name="logcatbox" class="logcatBox" rows="10" readonly style="display: none"></textarea>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="col-md-4">
+                <!--主播信息-->
+                <div class="author">
+                    <div class="media">
+                        <img src="{$anchorinfo.avatar}" class="img-fluid" />
+                        <div class="media-body">
+                            <h5>{$anchorinfo.user_nicename}</h5>
+                            <p>ID：{$anchorinfo.id}</p>
+                            <a class="btn btn-primary BTN-add-attention" href="javascript:void(0)">+关注</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--信息通知-->
+                <div class="chart-area">
+                    <!-- 信息通知 -->
+                    <div class="SR-area-chat" id="LF-area-chat">
+                        <div class="chat-msg" id="LF-chat-msg">
+                            <!-- 礼物记录 -->
+                            <div class="MR-msg">
+                                <div class="msg-gift player-main" id="msg_gift">
+                                    <div class="MR-chat">
+                                        <div class="boarder">
+                                            <ul class="clearfix">
+
+                                            </ul>
+                                        </div>
+                                        <div class="scroller"></div>
+                                    </div>
+                                    <div class="hjPopbox"></div>
+                                </div>
+                                <span class="MR-sound-toggle hide">声效开</span>
+                                <div class="MR-sound-tip hide"></div>
+                            </div>
+                            <!-- 聊天记录 -->
+                            <div id="LF-chat-msg-area" class="MR-msg">
+                                <div class="msg-chat">
+                                    <div class="MR-chat">
+                                        <div class="boarder">
+                                            <ul class="clearfix">
+                                                <li style="color:#000; padding: 7px 10px 0;"><span class="fake-name" style="color:#Ff0000;font-size: 16px;">直播间消息：</span><br>直播内容包含任何低俗、暴露和涉黄内容，账号会被封禁；安全部门会24小时巡查哦～</li>
+                                            </ul>
+                                        </div>
+                                        <!-- <div class="scroller"></div> -->
+                                        <span class="ICON-lock-screen hide"></span>
+                                    </div>
+                                </div>
+                                <div class="MR-msg-notice clearfix hide">
+                                    <span class="title">弹幕</span>
+                                    <div class="msg-content"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="chat-talk" id="LF-chat-talk">
+                            <div class="MR-talk">
+                                <span class="send-btn">发送</span>
+                                <div class="speaker">
+                                    <input type="text" value="想对主播说点什么？" />
+                                    <cite>30</cite>
+                                </div>
+                                <div class="emoticon-toggle-panel">
+                                </div>
+                            </div>
+                            <!-- 喇叭 -->
+                            <div class="MR-horn">
+                                <div class="toggle"></div>
+                                <div class="selector M-bubble hide">
+                                    <div class="arrow-right"></div>
+                                    <span class="closed"></span>
+                                    <div class="detail">
+                                        <div class="btn gold hide" data-gid="" data-num="0">
+                                            <p class="name">金喇叭<span class="num"></span></p>
+                                            <p class="price"><i class="ICON-coins">200</i></p>
+                                        </div>
+                                        <div class="btn site" data-gid="" data-num="0">
+                                            <p class="name">弹幕<span class="num"></span></p>
+                                            <p class="price"><i class="ICON-coins">{$getConfigPri['barrage_fee']}</i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dialog hide">
+                                    <h4 class="gold"><i></i></h4>
+                                    <div class="detail">
+                                        <textarea>请输入...</textarea>
+                                        <div class="opt clearfix">
+                                            <span></span>
+                                            <span class="num" style="display: none;">，本次免费</span>
+                                            <input type="button" value="发送" class="horn-send" />
+                                        </div>
+                                        <span class="closed"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 礼物 -->
+                        <div class="chat-gift" id="LF-chat-gift">
+                            <div class="MR-gift">
+                                <div class="gift-panel">
+                                    <ul class="gift-tab">
+                                        <li data-index="0" class="on">热门<i class="dot-new"></i></li>
+                                        <!-- <li data-index="1">豪华</li>
+                                    <li data-index="2">特殊</li>
+                                    <li data-index="3">专属</li>
+                                    <li data-index="4">我的包裹<i class="dot-tip hide"></i></li> -->
+                                    </ul>
+                                    <div class="gift-con">
+                                        <div class="gift-group">
+
+                                            <div class="gift-wrap">
+                                                <div class="M-arrow-scroll">
+                                                    <span class="left-arrow hide"></span>
+                                                    <span class="right-arrow"></span>
+                                                    <div class="con">
+                                                        <div class="scroll">
+                                                            <ul class="clearfix">
+                                                                <volist name="giftinfo" id="v">
+                                                                    <li class="gift " data-locked="0"
+                                                                        data-title="{$v['giftname']}"
+                                                                        data-name="{$v['giftname']}"
+                                                                        data-id="{$v['id']}"
+                                                                        data-price="{$v['needcoin']}">
+                                                                        <div class="gift-pic">
+                                                                            <img src="{$v['gifticon']}" />
+                                                                        </div>
+                                                                        <if condition="$v['type'] eq '1'">
+                                                                            <div class="gift-lian">
+                                                                                连
+                                                                            </div>
+                                                                        </if>
+                                                                    </li>
+                                                                </volist>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="MR-gift-tip hide">
+                                                <div class="tip-content">
+                                                    <img class="tip-img" src="">
+                                                    <div class="gift-tip-con">
+                                                        <span class="gift-tip-name"></span>
+                                                        <span class="gift-tip-price"></span>
+                                                    </div>
+                                                    <div class="gift-tip-desc"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="gift-footer clearfix">
+                                            <!-- 星星 -->
+                                            <div class="MR-free-gift hide">
+                                                <div class="MR-star">
+                                                    <div class="progress"></div>
+                                                    <div class="icon"></div>
+                                                    <div class="count">
+                                                        40
+                                                    </div>
+                                                </div>
+                                                <ul class="freegift-more clrearfix">
+                                                    <li class="more-btn star-0">
+                                                        <div class="icon"></div>
+                                                    </li>
+                                                    <li class="more-btn star-1">
+                                                        <div class="icon"></div>
+                                                    </li>
+                                                    <li class="more-btn star-10">
+                                                        <div class="icon"></div>
+                                                        <div class="bg">
+                                                            <div class="tips ">
+                                                                星动
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- 点歌 -->
+                                            <div class="MR-app MR-app-content hide">
+                                                <div class="MR-app-item M-app-UI-enable">
+                                                    <span class="icon app-icon-song"></span>
+                                                    <span class="title">点歌</span>
+                                                </div>
+                                            </div>
+                                            <!-- 礼物赠送数量 -->
+                                            <div class="MR-moregift">
+                                                <a class="send-btn" href="javascript:void(0);">赠送</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 头条 -->
+                        <div class="MR-big-gift">
+                            <div class="out-boxer" style="opacity: 1; top: 0px;">
+                                <div class="high-boxer" style="margin-left: -149.5px;">
+                                    <a href="/room/67656" target="_blank">
+                                        <cite class="photoer"><img
+                                                src="http://static.youku.com/ddshow/img/avatar/80/33.jpg" /></cite>
+                                        <cite class="desc">
+                                            <span class="user" title="榴莲的小狮子">榴莲的小狮子</span>
+                                            <span class="txt">送给</span>
+                                            <span class="name" title="大大元气满满">大大元气满满</span>心心相印
+                                        </cite>
+                                        <span class="gift-pic"><img
+                                                src="http://static.youku.com/ddshow/img/lfgift/xxxy5_80_80.png" /></span>
+                                        <cite class="desc gift-num">x188</cite>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+			
+			
+		
+			
+			
+			
+			
+        </div>
+
+
+
+    </div>
+    </div>
+</body>
+
+
+<script>
+    var checkBoxFields = ['isLive', 'withCredentials', 'hasAudio', 'hasVideo'];
+    var streamURL, mediaSourceURL;
+
+    function flv_load() {
+        console.log('isSupported: ' + flvjs.isSupported());
+        if (mediaSourceURL.className === '') {
+            var url = document.getElementById('msURL').value;
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.onload = function (e) {
+                var mediaDataSource = JSON.parse(xhr.response);
+                flv_load_mds(mediaDataSource);
+            }
+            xhr.send();
+        } else {
+            var i;
+            var mediaDataSource = {
+                type: 'flv'
+            };
+            for (i = 0; i < checkBoxFields.length; i++) {
+                var field = checkBoxFields[i];
+                /** @type {HTMLInputElement} */
+                var checkbox = document.getElementById(field);
+                mediaDataSource[field] = checkbox.checked;
+            }
+            mediaDataSource['url'] = document.getElementById('sURL').value;
+            console.log('MediaDataSource', mediaDataSource);
+            flv_load_mds(mediaDataSource);
+        }
+    }
+
+    function flv_load_mds(mediaDataSource) {
+        var element = document.getElementsByName('videoElement')[0];
+        if (typeof player !== "undefined") {
+            if (player != null) {
+                player.unload();
+                player.detachMediaElement();
+                player.destroy();
+                player = null;
+            }
+        }
+        player = flvjs.createPlayer(mediaDataSource, {
+            enableWorker: false,
+            lazyLoadMaxDuration: 3 * 60,
+            seekType: 'range',
+        });
+        player.attachMediaElement(element);
+        player.load();
+    }
+
+    function flv_start() {
+        player.play();
+    }
+
+    function flv_pause() {
+        player.pause();
+    }
+
+    function flv_destroy() {
+        player.pause();
+        player.unload();
+        player.detachMediaElement();
+        player.destroy();
+        player = null;
+    }
+
+    function flv_seekto() {
+        var input = document.getElementsByName('seekpoint')[0];
+        player.currentTime = parseFloat(input.value);
+    }
+
+    function switch_url() {
+        streamURL.className = '';
+        mediaSourceURL.className = 'hidden';
+        saveSettings();
+    }
+
+    function switch_mds() {
+        streamURL.className = 'hidden';
+        mediaSourceURL.className = '';
+        saveSettings();
+    }
+
+    function ls_get(key, def) {
+        try {
+            var ret = localStorage.getItem('flvjs_demo.' + key);
+            if (ret === null) {
+                ret = def;
+            }
+            return ret;
+        } catch (e) { }
+        return def;
+    }
+
+    function ls_set(key, value) {
+        try {
+            localStorage.setItem('flvjs_demo.' + key, value);
+        } catch (e) { }
+    }
+
+    function saveSettings() {
+        if (mediaSourceURL.className === '') {
+            ls_set('inputMode', 'MediaDataSource');
+        } else {
+            ls_set('inputMode', 'StreamURL');
+        }
+        var i;
+        for (i = 0; i < checkBoxFields.length; i++) {
+            var field = checkBoxFields[i];
+            /** @type {HTMLInputElement} */
+            var checkbox = document.getElementById(field);
+            ls_set(field, checkbox.checked ? '1' : '0');
+        }
+        var msURL = document.getElementById('msURL');
+        var sURL = document.getElementById('sURL');
+        ls_set('msURL', msURL.value);
+        ls_set('sURL', sURL.value);
+        console.log('save');
+    }
+
+    function loadSettings() {
+        var i;
+        for (i = 0; i < checkBoxFields.length; i++) {
+            var field = checkBoxFields[i];
+            /** @type {HTMLInputElement} */
+            var checkbox = document.getElementById(field);
+            var c = ls_get(field, checkbox.checked ? '1' : '0');
+            checkbox.checked = c === '1' ? true : false;
+        }
+
+        var msURL = document.getElementById('msURL');
+        var sURL = document.getElementById('sURL');
+        msURL.value = ls_get('msURL', msURL.value);
+        sURL.value = ls_get('sURL', sURL.value);
+        if (ls_get('inputMode', 'StreamURL') === 'StreamURL') {
+            switch_url();
+        } else {
+            switch_mds();
+        }
+    }
+
+    function showVersion() {
+        var version = flvjs.version;
+        document.title = document.title + " (v" + version + ")";
+    }
+
+    var logcatbox = document.getElementsByName('logcatbox')[0];
+    flvjs.LoggingControl.addLogListener(function (type, str) {
+
+        if (str.indexOf('Received Initialization Segment') > 0) {
+            console.log('start live')
+            
+            $('.video-box').hide();
+            $('.centeredVideo').show();
+            flv_start();
+        }
+
+        // if(str.indexOf('MediaSource onSourceEnded')> 0)
+        // logcatbox.value = logcatbox.value + str + '\n';
+        // logcatbox.scrollTop = logcatbox.scrollHeight;
+
+
+    });
+
+
+    function IEVersion() {
+        var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串  
+        var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器  
+        var isEdge = userAgent.indexOf("Edge") > -1 && !isIE; //判断是否IE的Edge浏览器  
+        var isIE11 = userAgent.indexOf('Trident') > -1 && userAgent.indexOf("rv:11.0") > -1;
+        if (isIE) {
+            var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+            reIE.test(userAgent);
+            var fIEVersion = parseFloat(RegExp["$1"]);
+            if (fIEVersion == 7) {
+                return 7;
+            } else if (fIEVersion == 8) {
+                return 8;
+            } else if (fIEVersion == 9) {
+                return 9;
+            } else if (fIEVersion == 10) {
+                return 10;
+            } else {
+                return 6;//IE版本<=7
+            }
+        } else if (isEdge) {
+            return 'edge';//edge
+        } else if (isIE11) {
+            return 11; //IE11  
+        } else {
+            return -1;//不是ie浏览器
+        }
+    }
+
+
+    function flashChecker() {
+        var hasFlash = 0; //是否安装了flash
+        var flashVersion = 0; //flash版本
+        if (document.all) {
+            var swf = new ActiveXObject('ShockwaveFlash.ShockwaveFlash');
+            if (swf) {
+                hasFlash = 1;
+                VSwf = swf.GetVariable("$version");
+                flashVersion = parseInt(VSwf.split(" ")[1].split(",")[0]);
+            }
+        } else {
+            if (navigator.plugins && navigator.plugins.length > 0) {
+                var swf = navigator.plugins["Shockwave Flash"];
+                if (swf) {
+                    hasFlash = 1;
+                    var words = swf.description.split(" ");
+                    for (var i = 0; i < words.length; ++i) {
+                        if (isNaN(parseInt(words[i]))) continue;
+                        flashVersion = parseInt(words[i]);
+                    }
+                }
+            }
+        }
+        return { f: hasFlash, v: flashVersion };
+    }
+    var fls = flashChecker();
+
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+
+        console.log('asd','{$pull}')
+          var pull_url = '{$pull}'
+        if('{$pull}' == ''){
+            console.log('主播还未上播，稍等片刻');
+            $("#loading").html("<img src='public/images/yun_img04.gif' width='240' >"+"<br>"+"<br>"+"主播还未上播，稍等片刻");
+            $('.centeredVideo').hide();
+            return;
+        }else{
+            console.log('已开播');
+        }
+        console.log('ie', IEVersion())
+
+        if (fls.f == 0) {
+         var player=new Aliplayer({"id":"player-con","source":pull_url,"width":"100%","height":"500px","autoplay":true,"isLive":true,"rePlay":false,"playsinline":true,"preload":true,"controlBarVisibility":"hover","useH5Prism":true,"skinLayout":[{"name":"bigPlayButton","align":"blabs","x":30,"y":80},{"name":"errorDisplay","align":"tlabs","x":0,"y":0},{"name":"infoDisplay"},{"name":"controlBar","align":"blabs","x":0,"y":0,"children":[{"name":"liveDisplay","align":"tlabs","x":15,"y":6},{"name":"fullScreenButton","align":"tr","x":10,"y":10},{"name":"volume","align":"tr","x":5,"y":10}]}]},function(player){console.log("The player is created")});
+        } else {
+            console.log('flash')
+            $('.video-box').hide();
+            $('.centeredVideo').hide();
+            
+            var player = new Aliplayer({
+                "id": "player-con",
+                "source": "{$pull}",
+                "width": "100%",
+                "height": "500px",
+                "autoplay": true,
+                "isLive": true,
+                "rePlay": false,
+                "showBuffer": true,
+                "snapshot": false,
+                "showBarTime": 5000,
+                "useFlashPrism": true,
+                "skinLayout": [
+                    {
+                        "name": "bigPlayButton",
+                        "align": "blabs",
+                        "x": 30,
+                        "y": 80
+                    },
+                    {
+                        "name": "errorDisplay",
+                        "align": "tlabs",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "name": "infoDisplay"
+                    },
+                    {
+                        "name": "controlBar",
+                        "align": "blabs",
+                        "x": 0,
+                        "y": 0,
+                        "children": [
+                            {
+                                "name": "liveDisplay",
+                                "align": "tlabs",
+                                "x": 15,
+                                "y": 25
+                            },
+                            {
+                                "name": "fullScreenButton",
+                                "align": "tr",
+                                "x": 10,
+                                "y": 25
+                            },
+                            {
+                                "name": "volume",
+                                "align": "tr",
+                                "x": 10,
+                                "y": 25
+                            }
+                        ]
+                    }
+                ]
+            }, function (player) {
+                console.log("The player is created");
+            }
+            );
+
+
+        }
+
+        // flv_start();
+    });
+</script>
+
+
+<script>
+
+
+    console.log(fls);
+</script>
+
+<style>
+    .main {
+        margin: 40px;
+        margin-left: 13%;
+    }
+</style>
+
+
+
+
+
+<script>
+    
+		var _DATA = {};
+		_DATA.config = {$configj};
+		_DATA.anchor = {$anchorinfoj};
+		_DATA.live = {$liveinfoj};
+		_DATA.gift = {$giftinfoj};
+		_DATA.user = {$userinfo};
+		var charge_interval = null;
+		var giftQueue = new Array();
+		var giftPlayState = 0;
+		var carQueue = new Array();
+		var carPlayState = 0;
+	</script>
+	
+	<script src="__PUBLIC__/js/jquery.js"></script>
+	<script src="__PUBLIC__/js/md5.js"></script>
+	<!-- <script src="__PUBLIC__/home/js/Ku6SubField.js"></script> -->
+	<!-- <script src="__PUBLIC__/home/js/swfobject-2.3.js"></script> -->
+	<script src="__PUBLIC__/home/js/event.js"></script> 
+	<script src="__PUBLIC__/home/js/socket.io.js"></script> 
+	<!-- <script>var socket = new io("{$configpri['chatserver']}");</script> -->
+	<script src="__PUBLIC__/home/js/eventListen.js"></script> 
+	<script src="__PUBLIC__/swf/jwplayer.js"></script>  
+	
+	<script src="/public/home/show/js/chat.js"></script>
+	
+	<script type="text/javascript" src="__PUBLIC__/home/js/common.js"></script>
+
+	<script type="text/javascript">
+		liveType.checkLive();
+	</script>
+	
+	<script>
+		var pull = "{$pull}";
+		var user = false;
+		//pull = "http://playertest.longtailvideo.com/adaptive/bipbop/gear4/prog_index.m3u8";
+	</script>
+	<if condition="$user">
+		<script type="text/javascript">
+			user = true;
+		</script>
+	</if>
+	<script src="/public/assets/js/jquery3.3.1.min.js"></script>
+	<!---->
+	<if condition="$pull">
+	<!-- <script src="/public/assets/src/js/show.js"></script> -->
+	<else />
+	<script>
+        $(".centeredVideo").hide();
+        $("#loading").html("<img src='public/images/yun_img04.gif'  width='240' >"+"<br>"+"<br>"+"主播还未上播，稍等片刻");
+        $(".video-box").show();
+		$("#loading").show();
+	</script>
+	</if>
+	
+	<script>
+		$(document).click(function(){
+			if(!user){
+				$("#loginModal").modal();
+			}
+		});
+	</script>
+<tc_include file="Public:footer" />

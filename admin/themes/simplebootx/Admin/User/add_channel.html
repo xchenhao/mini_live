@@ -1,0 +1,57 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li><a href="{:U('user/channel_index')}">渠道</a></li>
+			<li class="active"><a>渠道添加</a></li>
+
+		</ul>
+		<form method="post" class="form-horizontal js-ajax-form" action="{:U('User/addchannel_post')}">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label">{:L('USERNAME')}</label>
+					<div class="controls">
+						<input type="text" name="user_login">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">{:L('PASSWORD')}</label>
+					<div class="controls">
+						<input type="password" name="user_pass">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">{:L('EMAIL')}</label>
+					<div class="controls">
+						<input type="text" name="user_email">
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label">分成比例</label>
+					<div class="controls">
+						<input type="text" name="income_percent">
+					</div>
+				</div>
+
+				<input type="hidden" name="status" value="1">
+				<input value="6" type="hidden" name="role_id">
+				<input value="{$upper}" type="hidden" name="upper">
+				
+			</fieldset>
+			<div class="form-actions">
+				<button type="submit" class="btn btn-primary js-ajax-submit">{:L('ADD')}</button>
+				<if condition="$source eq 'agent_index'">
+					<a class="btn" href="{:U('user/agent_index')}">{:L('BACK')}</a>
+				</if>
+				<if condition="$source eq  'channel_index'">
+					<a class="btn" href="{:U('user/channel_index')}">{:L('BACK')}</a>
+				</if>
+				
+			</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

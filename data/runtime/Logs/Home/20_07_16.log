@@ -1,0 +1,1157 @@
+[ 2020-07-16T11:24:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.017940s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007154s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.013528s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013575s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 34 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 192 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 201 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 179 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 210 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 192 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 201 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 179 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.008088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2020-07-16T11:24:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001673s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 34 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 192 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 201 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 179 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 210 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 192 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 201 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 179 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2020-07-16T11:25:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000999s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 34 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 192 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 210 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 192 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2020-07-16T11:33:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001257s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 35 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 193 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 211 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 193 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2020-07-16T11:33:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 35 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 193 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 211 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 193 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2020-07-16T11:33:30+08:00 ] 127.0.0.1 /index.php?g=home&m=index&a=music
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000780s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.017604s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.017672s ]
+ERR: Call to undefined function url()
+
+[ 2020-07-16T11:33:45+08:00 ] 127.0.0.1 /index.php?g=home&m=index&a=music
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000797s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+ERR: Call to undefined function url()
+
+[ 2020-07-16T11:33:57+08:00 ] 127.0.0.1 /index.php?g=home&m=index&a=music
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000754s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+ERR: Call to undefined function url()
+
+[ 2020-07-16T11:34:05+08:00 ] 127.0.0.1 /index.php?g=home&m=index&a=music
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001385s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2020-07-16T11:34:30+08:00 ] 127.0.0.1 /index.php?g=home&m=index&a=music
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002214s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+ERR: Call to undefined function url()
+
+[ 2020-07-16T11:45:51+08:00 ] 127.0.0.1 /index.php?g=home&m=index&a=music
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+ERR: Call to undefined function url()
+
+[ 2020-07-16T11:51:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 35 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 193 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 211 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 193 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2020-07-16T11:51:23+08:00 ] 127.0.0.1 /index.php?g=home&m=index&a=music
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001851s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+ERR: Call to undefined function url()
+
+[ 2020-07-16T11:51:58+08:00 ] 127.0.0.1 /index.php?g=home&m=index&a=music
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:1.050429s ]
+INFO: [ app_init ] --END-- [ RunTime:1.050988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+ERR: Call to undefined function url()
+
+[ 2020-07-16T11:52:14+08:00 ] 127.0.0.1 /index.php?g=home&m=index&a=music
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000756s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+ERR: Call to undefined function url()
+
+[ 2020-07-16T11:53:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 35 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 193 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 211 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 193 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2020-07-16T11:53:44+08:00 ] 127.0.0.1 /index.php?g=home&m=index&a=music
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000757s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+ERR: Call to undefined function url()
+
+[ 2020-07-16T11:54:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 35 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 193 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 211 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 193 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2020-07-16T11:54:08+08:00 ] 127.0.0.1 /index.php?g=home&m=index&a=music
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000833s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2020-07-16T11:56:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 36 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 232 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 255 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 232 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2020-07-16T11:57:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001265s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 34 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 192 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 210 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 192 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2020-07-16T16:15:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\hcdf\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 35 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 193 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 211 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 193 行.
+NOTIC: [8] Undefined index: description E:\phpstudy2018\PHPTutorial\WWW\hcdf\data\runtime\Cache\Home\047d5c56b4cd647c06889306652120db.php 第 211 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+

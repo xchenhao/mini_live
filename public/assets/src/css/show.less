@@ -1,0 +1,196 @@
+@import "define";
+
+@default-show-bg: #f3f3f3;
+
+body.home-show{
+	.show-content{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		
+		.left,
+		.right{
+			height: 600px;
+		}
+		.left{
+			//padding-right: 0px;
+		}
+		.right{
+			//padding-left: 0px;
+		}
+		
+		//播放窗口
+		.video-box{
+			height: 600px;
+			position: relative;
+			padding-right: 0px;
+			background-color: #000000;
+			overflow:hidden;
+			
+			#loading-box{
+				position: absolute;
+				text-align: center;
+				left: 0;
+				right: 0px;
+				top: 35%;
+				font-size: 16px;
+				color: #FFFFFF;
+			}
+			#loading{
+				color: #FFFFFF;
+				box-shadow: 5px 5px 5px #000;
+			}
+			#video{
+			}
+			#play{
+				display: none;
+				position: absolute;
+				text-align: center;
+				width: 81px;
+				height: 81px;
+				text-decoration: none;
+			}
+			.seeking,
+			.pausing{
+				background: url(/public/images/video.png) center center no-repeat;
+				background-position: 0px -81px;
+			}
+		}
+		
+		//主播信息
+		.author{
+			height: 85px;
+			padding: 10px 15px;
+			background-color:@default-show-bg;
+			img{
+				width: 64px;
+				height: 64px;
+				border-radius: 32px;
+			}
+			h5{
+				color: #000000;
+				font-size: 16px;
+			}
+			.media-body{
+				position: relative;
+				margin-left:10px;
+				p{
+					font-size: 14px;
+					color: #C0C4CC;
+				}
+				//关注
+				.BTN-add-attention{
+					position: absolute;
+					right: 0px;
+					top: 15px;
+					padding: 5px 15px;
+					border-radius: 30px;
+				}
+			}
+		}
+		
+		//聊天区域
+		.chart-area{
+			position: relative;
+			height: 500px;
+			margin-top: 15px;
+			padding: 0px;
+			overflow: hidden;
+			
+			//
+			.SR-area-chat{
+				width: 100%;
+				height: 500px !important;
+				background-color: @default-show-bg;
+				ul{
+					padding: 0px 5px;
+					
+					li{
+						color: #000;
+					}
+				}
+				//聊天区域
+				.chat-msg{
+					width: 100%;
+					height: 500px;
+					
+					.boarder{
+						height: 400px;
+					}
+					
+				}
+				//礼物
+				.msg-gift{
+					display: none !important;
+				}
+				//
+				.control-bar{
+					display: none;
+				}
+				//发送聊天
+				.chat-talk{
+					bottom: 15px;
+					padding-top: 5px;
+					background:none;
+					cite{
+						display: none;
+					}
+					.MR-horn{
+						display: none;
+					}
+					.MR-talk{
+						position: relative;
+						width: 100%;
+						padding: 0px 15px;
+						*{
+							background: none;
+						}
+						//
+						.speaker{
+							position: absolute;
+							width:auto;
+							left: 15px;
+							right: 115px;
+							input{
+								color: #000000;
+								width: 100%;
+								background-color: #FFFFFF;
+								border-radius: 15px;
+								padding-left: 15px;
+							}
+						}
+						//
+						.send-btn{
+							color: #FFFFFF;
+							position: absolute;
+							right: 15px;
+							width: 85px;
+							background-color: #007bff;
+							border-radius: 15px;
+						}
+						.send-btn:hover{
+							background-color: #0086b3;
+						}
+					}
+				}
+				//礼物
+				.chat-gift{
+					display: none;
+					width: 100%;
+					.MR-gift{
+						width: 100%;
+						padding: 0px 15px;
+					}
+					.gift-group,
+					.con{
+						width: 100%;
+						padding: 0px;
+					}
+				}
+				
+				
+			}
+			
+			
+		}
+	}
+}

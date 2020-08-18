@@ -1,0 +1,1508 @@
+[ 2019-11-25T08:22:29+08:00 ] 139.214.246.39 /index.php?g=portal&m=page&a=start_live&uid=11830&pull=http://pull.nut5g.com/live/11830_1574641053115.m3u8?auth_key=1574651857-0-0-9703aaf6637e24e10f867140be52fc9c&time=20191125082225
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000119s ]
+
+[ 2019-11-25T08:26:06+08:00 ] 221.192.180.173 /index.php?g=portal&m=page&a=start_live&uid=11827&pull=http://pull.nut5g.com/live/11827_1574640813809.m3u8?auth_key=1574651613-0-0-b0511c7330eae2cd50548555ecf10c1b&time=20191125082606
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000126s ]
+
+[ 2019-11-25T08:27:36+08:00 ] 36.104.28.101 /index.php?g=portal&m=page&a=start_live&uid=11829&pull=http://pull.nut5g.com/live/11829_1574641594094.m3u8?auth_key=1574652394-0-0-fc2f7635a6a532d04399160426f19cad&time=20191125082735
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2019-11-25T08:30:45+08:00 ] 1.58.112.172 /index.php?g=portal&m=page&a=start_live&uid=11831&pull=http://pull.nut5g.com/live/11831_1574641836161.m3u8?auth_key=1574652636-0-0-475ce7ba4e0bde0d181ab8625ec6546b&time=20191125083045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2019-11-25T08:51:11+08:00 ] 111.26.36.41 /index.php?g=portal&m=page&a=start_live&uid=11830&pull=http://pull.nut5g.com/live/11830_1574643059873.m3u8?auth_key=1574653864-0-0-fe07b41413cbf2c0ab720514982eb129&time=20191125085107
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2019-11-25T08:52:58+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=record&id=11959
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: game_switch /data/wwwroot/ybzb/application/Common/Common/function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch /data/wwwroot/ybzb/application/Common/Common/function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a /data/wwwroot/ybzb/application/Common/Common/function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch /data/wwwroot/ybzb/application/Common/Common/function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch /data/wwwroot/ybzb/application/Common/Common/function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a /data/wwwroot/ybzb/application/Common/Common/function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/c29f16e7f301980deb585a441f8730f0.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2019-11-25T08:53:04+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=record&id=11960
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined index: game_switch /data/wwwroot/ybzb/application/Common/Common/function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch /data/wwwroot/ybzb/application/Common/Common/function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a /data/wwwroot/ybzb/application/Common/Common/function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch /data/wwwroot/ybzb/application/Common/Common/function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch /data/wwwroot/ybzb/application/Common/Common/function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a /data/wwwroot/ybzb/application/Common/Common/function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/c29f16e7f301980deb585a441f8730f0.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2019-11-25T09:34:22+08:00 ] 221.192.180.173 /index.php?g=portal&m=page&a=start_live&uid=11827&pull=http://pull.nut5g.com/live/11827_1574645640349.m3u8?auth_key=1574656440-0-0-a029fd20387bb23dc374f03d7a77bc92&time=20191125093422
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2019-11-25T09:35:30+08:00 ] 1.58.112.172 /index.php?g=portal&m=page&a=stop_live&uid=11831&time=20191125093530
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2019-11-25T09:35:32+08:00 ] 1.58.112.172 /index.php?g=portal&m=page&a=start_live&uid=11831&pull=http://pull.nut5g.com/live/11831_1574641836161.m3u8?auth_key=1574652636-0-0-475ce7ba4e0bde0d181ab8625ec6546b&time=20191125093532
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2019-11-25T09:35:58+08:00 ] 36.104.28.101 /index.php?g=portal&m=page&a=stop_live&uid=11829&time=20191125093557
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2019-11-25T09:36:32+08:00 ] 36.104.28.101 /index.php?g=portal&m=page&a=start_live&uid=11829&pull=http://pull.nut5g.com/live/11829_1574645785635.m3u8?auth_key=1574656585-0-0-4fda19c33e8ad1b5cf204b25c0b400e0&time=20191125093632
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2019-11-25T09:58:38+08:00 ] 1.58.112.172 /index.php?g=portal&m=page&a=stop_live&uid=11831&time=20191125095838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000104s ]
+
+[ 2019-11-25T09:58:43+08:00 ] 1.58.112.172 /index.php?g=portal&m=page&a=start_live&uid=11831&pull=http://pull.nut5g.com/live/11831_1574641836161.m3u8?auth_key=1574652636-0-0-475ce7ba4e0bde0d181ab8625ec6546b&time=20191125095843
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2019-11-25T09:59:21+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000030s ]
+
+[ 2019-11-25T10:38:44+08:00 ] 36.104.28.101 /index.php?g=portal&m=page&a=stop_live&uid=11829&time=20191125103843
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000113s ]
+
+[ 2019-11-25T10:38:46+08:00 ] 36.104.28.101 /index.php?g=portal&m=page&a=start_live&uid=11829&pull=http://pull.nut5g.com/live/11829_1574645785635.m3u8?auth_key=1574656585-0-0-4fda19c33e8ad1b5cf204b25c0b400e0&time=20191125103846
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000118s ]
+
+[ 2019-11-25T11:31:14+08:00 ] 111.26.36.41 /index.php?g=portal&m=page&a=stop_live&uid=11830&time=20191125113110
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2019-11-25T11:31:22+08:00 ] 1.58.112.172 /index.php?g=portal&m=page&a=stop_live&uid=11831&time=20191125113122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000122s ]
+
+[ 2019-11-25T11:31:56+08:00 ] 221.192.180.173 /index.php?g=portal&m=page&a=stop_live&uid=11827&time=20191125113155
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2019-11-25T11:31:59+08:00 ] 36.104.28.101 /index.php?g=portal&m=page&a=stop_live&uid=11829&time=20191125113159
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2019-11-25T13:29:17+08:00 ] 1.58.112.172 /index.php?g=portal&m=page&a=start_live&uid=11831&pull=http://pull.nut5g.com/live/11831_1574659748145.m3u8?auth_key=1574670549-0-0-ed4263eae997879eda29645e77a43d2c&time=20191125132915
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2019-11-25T13:30:11+08:00 ] 36.104.28.101 /index.php?g=portal&m=page&a=start_live&uid=11829&pull=http://pull.nut5g.com/live/11829_1574659761541.m3u8?auth_key=1574670561-0-0-60a48c9b62f8c4a9e77b7399f3fb7712&time=20191125133011
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000113s ]
+
+[ 2019-11-25T13:30:45+08:00 ] 221.192.180.173 /index.php?g=portal&m=page&a=start_live&uid=11827&pull=http://pull.nut5g.com/live/11827_1574659793922.m3u8?auth_key=1574670594-0-0-b37dd8b6eb9ec9c064eb8e929db299b2&time=20191125133045
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000136s ]
+
+[ 2019-11-25T13:31:15+08:00 ] 111.26.36.41 /index.php?g=portal&m=page&a=start_live&uid=11830&pull=http://pull.nut5g.com/live/11830_1574659864632.m3u8?auth_key=1574670668-0-0-fffb7f224891da4dbd851d450a497697&time=20191125133111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2019-11-25T13:31:33+08:00 ] 111.26.36.41 /index.php?g=portal&m=page&a=stop_live&uid=11830&time=20191125133129
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2019-11-25T13:31:33+08:00 ] 111.26.36.41 /index.php?g=portal&m=page&a=start_live&uid=11830&pull=http://pull.nut5g.com/live/11830_1574659864632.m3u8?auth_key=1574670668-0-0-fffb7f224891da4dbd851d450a497697&time=20191125133129
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2019-11-25T13:33:56+08:00 ] 111.26.36.41 /index.php?g=portal&m=page&a=start_live&uid=11830&pull=http://pull.nut5g.com/live/11830_1574660026329.m3u8?auth_key=1574670830-0-0-49ed98ba758836beebc88d74b2a651d3&time=20191125133352
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000115s ]
+
+[ 2019-11-25T13:37:35+08:00 ] 1.58.112.172 /index.php?g=portal&m=page&a=start_live&uid=11831&pull=http://pull.nut5g.com/live/11831_1574660245471.m3u8?auth_key=1574671045-0-0-f1994d34b4dc38b26f24bc0f92838ace&time=20191125133734
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000121s ]
+
+[ 2019-11-25T14:02:16+08:00 ] 111.26.36.41 /index.php?g=portal&m=page&a=start_live&uid=11830&pull=http://pull.nut5g.com/live/11830_1574661729311.m3u8?auth_key=1574672533-0-0-3d279a45cb3bb165bc1547783e223356&time=20191125140212
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2019-11-25T14:30:05+08:00 ] 1.58.112.172 /index.php?g=portal&m=page&a=stop_live&uid=11831&time=20191125143005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2019-11-25T14:30:08+08:00 ] 1.58.112.172 /index.php?g=portal&m=page&a=start_live&uid=11831&pull=http://pull.nut5g.com/live/11831_1574660245471.m3u8?auth_key=1574671045-0-0-f1994d34b4dc38b26f24bc0f92838ace&time=20191125143008
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2019-11-25T15:03:34+08:00 ] 36.104.28.101 /index.php?g=portal&m=page&a=start_live&uid=11829&pull=http://pull.nut5g.com/live/11829_1574665408732.m3u8?auth_key=1574676209-0-0-9afeee7ebefb600795d5a6559b86112a&time=20191125150333
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000143s ]
+
+[ 2019-11-25T16:19:04+08:00 ] 111.26.36.41 /index.php?g=portal&m=page&a=start_live&uid=11830&pull=http://pull.nut5g.com/live/11830_1574661729311.m3u8?auth_key=1574672533-0-0-3d279a45cb3bb165bc1547783e223356&time=20191125161859
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2019-11-25T16:30:21+08:00 ] 111.26.36.41 /index.php?g=portal&m=page&a=stop_live&uid=11830&time=20191125163017
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.016518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000146s ]
+
+[ 2019-11-25T16:30:38+08:00 ] 36.104.28.101 /index.php?g=portal&m=page&a=stop_live&uid=11829&time=20191125163038
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2019-11-25T16:30:49+08:00 ] 1.58.112.172 /index.php?g=portal&m=page&a=stop_live&uid=11831&time=20191125163049
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000103s ]
+
+[ 2019-11-25T16:30:58+08:00 ] 221.192.180.173 /index.php?g=portal&m=page&a=stop_live&uid=11827&time=20191125163057
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000104s ]
+
+[ 2019-11-25T17:02:50+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2019-11-25T17:03:33+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000029s ]
+
+[ 2019-11-25T17:04:37+08:00 ] 61.129.8.179 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2019-11-25T17:06:13+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2019-11-25T17:15:30+08:00 ] 103.43.185.66 /index.php?g=portal&m=page&a=news&id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2019-11-25T17:15:35+08:00 ] 103.43.185.66 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000025s ]
+
+[ 2019-11-25T17:28:39+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2019-11-25T17:29:44+08:00 ] 101.227.139.163 /index.php?g=portal&m=page&a=news&id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000216s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2019-11-25T17:42:02+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2019-11-25T17:42:05+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2019-11-25T17:42:07+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000129s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2019-11-25T17:43:05+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2019-11-25T17:45:38+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2019-11-25T17:45:39+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2019-11-25T17:45:40+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000040s ]
+
+[ 2019-11-25T17:45:41+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2019-11-25T17:45:42+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2019-11-25T17:45:43+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2019-11-25T17:45:43+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=news&id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type /data/wwwroot/ybzb/application/Common/Common/function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() /data/wwwroot/ybzb/application/Common/Controller/HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/ybzb/simplewind/Core/Library/Think/Db/Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: user /data/wwwroot/ybzb/data/runtime/Cache/Portal/4e7d45d3c7a6effe724595d64ca9eae6.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+

@@ -1,0 +1,55 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap">
+		<ul class="nav nav-tabs">
+			<li><a href="{:U('user/agent_index')}">渠道</a></li>
+			<if condition="$_SESSION['ADMIN_status'] neq 0"><li><a href="{:U('user/add_channel')}">渠道添加</a></li></if>
+		</ul>
+		<form method="post" class="form-horizontal js-ajax-form" action="{:U('User/channeledit_post')}">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label">{:L('USERNAME')}</label>
+					<div class="controls">
+						<input type="text" readonly="readonly" name="user_login" value="{$user_login}">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">{:L('PASSWORD')}</label>
+					<div class="controls">
+						<input type="password" name="user_pass" value="" placeholder="******">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">{:L('EMAIL')}</label>
+					<div class="controls">
+						<input type="text" name="user_email" value="{$user_email}">
+					</div>
+				</div>
+				<if condition="$status neq 0">
+				<div class="control-group">
+					<label class="control-label">分成比例</label>
+					<div class="controls">
+						<input type="text" name="income_percent" value="{$income_percent}">
+					</div>
+				</div>
+
+			</if>
+
+					<input type="hidden" name="status" value="{$status}">
+
+				
+
+			</fieldset>
+			<div class="form-actions">
+				<input type="hidden" name="id" value="{$id}" />
+				<button type="submit" class="btn btn-primary js-ajax-submit">{:L('SAVE')}</button>
+				
+				<a class="btn" href="{:U('user/channel_index')}">{:L('BACK')}</a>
+				
+			</div>
+		</form>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

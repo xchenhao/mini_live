@@ -1,0 +1,22 @@
+<tc_include file="Public:header" />
+<tc_include file="Public:navbar" />
+
+<body class="home-record">
+<div class="container content">
+		<div class="mainBox clearfix">
+						
+		<div class="module-title"><h2><em>Wonderful playback</em>精彩回放中</h2>
+						</div>
+						<div class="row m-list">
+								<volist name="live_record" id="v">
+										<div class="col-md-3 m-item record-live" onClick="window.location.href='/index.php?g=portal&m=page&a=record&id={$v['uid']}';">
+												<div class="item"> <img src="{$v['thumb']}" class="img-fluid">
+														<h5 class="username"> <img src="{$v['thumb']}" class="img-fluid"> {$v['user_nicename']} </h5>
+												</div>
+										</div>
+								</volist>
+						</div>
+				
+		</div>
+</div>
+<tc_include file="Public:footer" />

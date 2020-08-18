@@ -1,0 +1,117 @@
+<script src="/public/assets/js/jquery3.3.1.min.js"></script>
+<script src="/public/assets/hls.js/hls.js"></script>
+<div class="row m-list">
+	<volist name="live_show" id="v">
+		<div class="col-md-4 m-item <if condition=" $v['islive'] eq '1'">live live{$v['uid']}<else/>none-live</if>" onclick="window.location.href='./{$v['uid']}';">
+			<div class="item">
+				<img src="{$v['thumb']}" class="img-fluid">
+				<h5 class="username">
+					<img src="{$v['thumb']}" class="img-fluid">
+					{$v['user_nicename']}
+				</h5>
+				<if condition="$v['pull']">
+				<video url="{$v['pull']}" id="video{$v['uid']}"></video>
+				<a class="play-video" href="javascript:void(0);">
+					<img src="/public/images/play.png">
+				</a>
+				</if>
+			</div>
+		</div>
+	</volist>
+</div>
+<script>
+	$(".m-item.live").each(function() {
+		var videoid = $(this).find("video").attr("id");
+		var videourl = $(this).find("video").attr("url");
+		if (!videoid) {
+			return;
+		}
+		if (Hls.isSupported()) {
+			video = document.getElementById(videoid);
+			video.oncontextmenu = function() {
+				return false;
+			}
+			video.addEventListener("playing", function() {
+				console.log('video is playing');
+			});
+			video.addEventListener("seeking", function() {
+				console.log('video is seeking');
+			});
+			video.addEventListener("pause", function() {
+				console.log('video is pause');
+			});
+			//实例化Hls
+			var config = {
+				debug: false
+			}
+			console.log('hls:', 'supported');
+			var hls = new Hls(config);
+			//bind
+			hls.attachMedia(video);
+			hls.on(Hls.Events.MEDIA_ATTACHED, function() {
+				console.log('hls events:', 'MEDIA_ATTACHED, ');
+				//加载资源
+				hls.loadSource(videourl);
+
+				console.log('url:', hls.url);
+				hls.on(Hls.Events.MANIFEST_PARSED, function() {
+					//加载资源完毕
+					//console.log('hls events:', 'MANIFEST_PARSED, ');
+					//开始播放
+					//console.log('hls events:', 'start play...');
+					//video.play();
+				});
+			});
+
+			//error
+			hls.on(Hls.Events.ERROR, function(event, data) {
+				var errorType = data.type;
+				var errorDetails = data.details;
+				var errorFatal = data.fatal;
+				console.log(errorType, errorDetails, errorFatal);
+				if (errorFatal) {
+					switch (errorFatal) {
+						case Hls.ErrorTypes.NETWORK_ERROR:
+							// try to recover network error
+							console.log("fatal network error encountered, try to recover");
+							hls.startLoad();
+							break;
+						case Hls.ErrorTypes.MEDIA_ERROR:
+							console.log("fatal media error encountered, try to recover");
+							hls.recoverMediaError();
+							break;
+						default:
+							// cannot recover
+							console.log("cannot recover, try to destroy");
+							hls.destroy();
+							break;
+					}
+				}
+			});
+		} else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+			console.log('hls:', 'canPlayType');
+			video.src = videourl;
+			video.addEventListener('loadedmetadata', function() {
+				console.log('hls:', 'add event listener loadedmetadata, ', 'start play...');
+				//video.play();
+			});
+		}
+	});
+
+	$(".m-item.live").hover(function(){
+		$(this).find(".play-video").hide();
+		var video_p_id = $(this).find("video").attr("id");
+		video_p = document.getElementById(video_p_id);
+		if(video_p){
+			video_p.play();
+		}
+		
+	},function(){
+		$(this).find(".play-video").show();
+		var video_p_id = $(this).find("video").attr("id");
+		video_p = document.getElementById(video_p_id);
+		if(video){
+			video_p.pause();
+		}
+	});
+</script>

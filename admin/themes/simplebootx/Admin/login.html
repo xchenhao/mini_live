@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>{$site_name} {:L('ADMIN_CENTER')}</title>
+		<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<meta name="robots" content="noindex,nofollow">
+		<link href="__TMPL__Public/assets/css/admin_login.css?time=1" rel="stylesheet" />
+		<style>
+			*{
+				font-family: "KaiTi" !important;
+			}
+			html{
+				background-color: #FFFFFF;
+			}
+			.wrap{
+				margin-top: 120px;
+			}
+			#login_btn_wraper{
+				text-align: center;
+			}
+			#login_btn_wraper .tips_success{
+				color:#fff;
+			}
+			#login_btn_wraper .tips_error{
+				color:#DFC05D;
+			}
+			#login_btn_wraper .btn{
+				background: #009966 !important;
+			}
+			#login_btn_wraper button:focus{outline:none;}
+			.login ul{
+				border: 1px solid #d3d4d4;
+				box-shadow: none;
+			}
+			.login li{
+				border: 0px;
+				border-bottom: 1px solid #d3d4d4;
+			}
+			.login-title{
+				color: #000000;
+				text-align: center;
+				margin: 20px 0px;
+			}
+			
+			.login-background{
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				right: 0px;
+				bottom: 0px;
+				z-index: -1;
+				//background: url("/public/assets/images/adminbg.jpg") center center no-repeat;
+				background-size: cover;
+			}
+		</style>
+		<script>
+			if (window.parent !== window.self) {
+					document.write = '';
+					window.parent.location.href = window.self.location.href;
+					setTimeout(function () {
+							document.body.innerHTML = '';
+					}, 0);
+			}
+		</script>
+		
+	</head>
+<body>
+	<div class="login-background"></div>
+	<div class="wrap">
+		<h1 class="login-title">管理员登录</h1>
+		<form method="post" name="login" action="{:U('public/dologin')}" autoComplete="off" class="js-ajax-form">
+			<div class="login">
+				<ul>
+					<li>
+						<input class="input" id="js-admin-name" required name="username" type="text" placeholder="{:L('USERNAME_OR_EMAIL')}" title="{:L('USERNAME_OR_EMAIL')}" value="{$_COOKIE['admin_username']}"/>
+					</li>
+					<li>
+						<input class="input" id="admin_pwd" type="password" required name="password" placeholder="{:L('PASSWORD')}" title="{:L('PASSWORD')}" />
+					</li>
+					<li class="verifycode-wrapper">
+						{:sp_verifycode_img('length=4&font_size=20&width=248&height=42&use_noise=1&use_curve=0','style="cursor: pointer;" title="点击获取"')}
+					</li>
+					<li>
+						<input class="input" type="text" name="verify" placeholder="{:L('ENTER_VERIFY_CODE')}" />
+					</li>
+				</ul>
+				<div id="login_btn_wraper">
+					<button type="submit" name="submit" class="btn js-ajax-submit" data-loadingmsg="{:L('LOADING')}">{:L('LOGIN')}</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+<script>
+var GV = {
+	DIMAUB: "",
+	JS_ROOT: "__PUBLIC__/js/",//js版本号
+	TOKEN : ''	//token ajax全局
+};
+</script>
+<script src="__PUBLIC__/js/wind.js"></script>
+<script src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+<script>
+;(function(){
+	document.getElementById('js-admin-name').focus();
+})();
+</script>
+</body>
+</html>

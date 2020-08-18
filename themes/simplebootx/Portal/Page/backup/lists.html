@@ -1,0 +1,20 @@
+
+<tc_include file="Public:head" />
+<title>{$post_title}-{$site_name}</title>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/home/css/index.css"/>
+</head>
+<body class="body-white">
+	<div class="wrapper">
+	<tc_include file="Public:header" />
+	<div class="container tc-main">	
+	  <ul class="page_list">
+		  <volist name="page" id="vo">
+				<li><a href="./index.php?g=portal&m=page&a=index&id={$vo.id}">{$vo.post_title}</a></li>
+			</volist>
+		</ul>
+	</div>
+	<!-- /container -->
+	</div>
+	<tc_include file="Public:footer" />
+</body>
+</html>

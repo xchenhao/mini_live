@@ -1,0 +1,103 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="{:U('user/agent_index')}">代理</a></li>
+			<li><a href="{:U('user/add_agent')}">代理添加</a></li>
+		</ul>
+
+		<div>代理总数：{$count}</div><br>
+
+		<form class="well form-search" method="post" action="{:U('user/agent_index')}">
+			
+			关键字： 
+			<input type="text" name="keyword" style="width: 200px;" value="{$formget.keyword}" placeholder="请输入代理用户名或ID">
+			<input type="submit" class="btn btn-primary" value="搜索">
+
+
+		</form>	
+
+		<table class="table table-hover table-bordered">
+			<thead>
+				<tr>
+					<th width="50">ID</th>
+					<th>{:L('USERNAME')}</th>
+					<th>用户身份</th>
+					<th>{:L('LAST_LOGIN_IP')}</th>
+					<th>{:L('LAST_LOGIN_TIME')}</th>
+					<th>{:L('EMAIL')}</th>
+					<th>分成比例</th>
+					<th>渠道数量</th>
+					<th>注册量(人)</th>
+					<th>充值金额(元)</th>
+					<th>收益(元)</th>
+					<th>结算</th>
+					<th>{:L('STATUS')}</th>
+					<th width="120">{:L('ACTIONS')}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<php>$user_statuses=array("0"=>L('USER_STATUS_BLOCKED'),"1"=>L('USER_STATUS_ACTIVATED'),"2"=>L('USER_STATUS_UNVERIFIED'));</php>
+				<php>$user_identity=array("0"=>"管理员","1"=>"渠道","2"=>"代理");</php>
+				<foreach name="users" item="vo">
+				<tr>
+					<td>{$vo.id}</td>
+					<td>{$vo.user_login}</td>
+					<td>{$user_identity[$vo['status']]}</td>
+					<td>{$vo.last_login_ip}</td>
+					<td>
+						<if condition="$vo['last_login_time'] eq 0">
+							{:L('USER_HAVENOT_LOGIN')}
+						<else />
+							{$vo.last_login_time}
+						</if>
+					</td>
+					<td>{$vo.user_email}</td>
+					<td>{$vo.income_percent}%</td>
+					<td>{$vo.channelNum}</td>
+					<td>
+						<a href='{:U("user/agent_regist",array("id"=>$vo["id"],"date"=>"today"))}'>今日【{$vo.todayRegNum}】</a>,
+						<a href='{:U("user/agent_regist",array("id"=>$vo["id"],"date"=>"yesterday"))}'>昨日【{$vo.yesterdayRegNum}】</a>,
+						<a href='{:U("user/agent_regist",array("id"=>$vo["id"],"date"=>"localmonth"))}'>本月【{$vo.localMonthRegNum}】</a>
+					</td>
+					<td>
+						<a href='{:U("user/agent_charge",array("id"=>$vo["id"],"date"=>"today"))}'>今日【{$vo.todayMoney}】</a>,
+						<a href='{:U("user/agent_charge",array("id"=>$vo["id"],"date"=>"yesterday"))}'>昨日【{$vo.yesterdayMoney}】</a>,
+						<a href='{:U("user/agent_charge",array("id"=>$vo["id"],"date"=>"localmonth"))}'>本月【{$vo.localmonthMoney}】</a>
+					</td>
+					<td>
+						<a href='{:U("user/agent_income",array("id"=>$vo["id"],"date"=>"today"))}'>今日【{$vo.todayInCome}】</a>,
+						<a href='{:U("user/agent_income",array("id"=>$vo["id"],"date"=>"yesterday"))}'>昨日【{$vo.yesterdayInCome}】</a>,
+						<a href='{:U("user/agent_income",array("id"=>$vo["id"],"date"=>"localmonth"))}'>本月【{$vo.localmonthInCome}】</a>
+					</td>
+					<td>
+						总收益：{$vo['incomeMsg']['total_income']}元<br />
+						已结算：{$vo['incomeMsg']['settled']}元<br />
+						未结算：{$vo['incomeMsg']['unsettled']}元<br />
+
+					</td>
+					<td>{$user_statuses[$vo['user_status']]}</td>
+					<td>
+						
+							<a href='{:U("user/agent_edit",array("id"=>$vo["id"]))}'>{:L('EDIT')}</a> | 
+							<a class="js-ajax-dialog-btn" href="{:U('user/agent_delete',array('id'=>$vo['id']))}" data-msg="该代理下所有渠道将一并被删除，其下用户归属平台。您确定要删除该代理吗？">{:L('DELETE')}</a> | 
+							<if condition="$vo['user_status'] eq 1">
+								<a href="{:U('user/agent_ban',array('id'=>$vo['id']))}" class="js-ajax-dialog-btn" data-msg="{:L('BLOCK_USER_CONFIRM_MESSAGE')}">{:L('BLOCK_USER')}</a> |
+							<else />
+								<a href="{:U('user/agent_cancelban',array('id'=>$vo['id']))}" class="js-ajax-dialog-btn" data-msg="{:L('ACTIVATE_USER_CONFIRM_MESSAGE')}">{:L('ACTIVATE_USER')}</a> |
+							</if>
+							<a href='{:U("user/channel_index",array("keyword"=>$vo["id"]))}'>渠道列表</a> |
+							<a href='{:U("user/add_channel",array("agentid"=>$vo["id"],"source"=>"agent_index"))}'>渠道添加</a> |
+							<a href='{:U("user/agent_settle",array("agentid"=>$vo["id"]))}'>收益结算</a> |
+							<a href='{:U("user/agent_settle_lists",array("agentid"=>$vo["id"]))}'>收益结算清单</a>
+					</td>
+				</tr>
+				</foreach>
+			</tbody>
+		</table>
+		<div class="pagination">{$page}</div>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

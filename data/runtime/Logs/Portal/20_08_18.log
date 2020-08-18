@@ -1,0 +1,1670 @@
+[ 2020-08-18T09:35:40+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=index&menuid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000881s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 65 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2020-08-18T09:35:43+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=edit&term=&id=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000709s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined index: photo E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\98f4bfd8ed6d924499508e4ab37dc2ca.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2020-08-18T09:36:42+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2020-08-18T09:36:44+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000817s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 65 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2020-08-18T09:36:47+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=edit&term=&id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000925s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: photo E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\98f4bfd8ed6d924499508e4ab37dc2ca.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2020-08-18T09:36:50+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=edit&term=&id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000741s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: photo E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\98f4bfd8ed6d924499508e4ab37dc2ca.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2020-08-18T09:37:08+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000830s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2020-08-18T09:37:09+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000734s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 65 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2020-08-18T09:37:13+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=edit&term=&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000736s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: photo E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\98f4bfd8ed6d924499508e4ab37dc2ca.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2020-08-18T09:37:25+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000824s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+
+[ 2020-08-18T09:37:27+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000801s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 65 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2020-08-18T09:37:28+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPage&a=index&menuid=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001288s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: start_time E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\5083009d27e056fc58a4f1c04fed0447.php 第 60 行.
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\5083009d27e056fc58a4f1c04fed0447.php 第 61 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\5083009d27e056fc58a4f1c04fed0447.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2020-08-18T09:37:30+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPage&a=edit&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000780s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2020-08-18T09:37:53+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPage&a=edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000752s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2020-08-18T09:37:56+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000707s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 65 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2020-08-18T09:37:57+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPage&a=index&menuid=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001449s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: start_time E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\5083009d27e056fc58a4f1c04fed0447.php 第 60 行.
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\5083009d27e056fc58a4f1c04fed0447.php 第 61 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\5083009d27e056fc58a4f1c04fed0447.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2020-08-18T09:38:00+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPage&a=edit&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000734s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2020-08-18T09:38:04+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPage&a=edit&id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000745s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2020-08-18T09:38:20+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPage&a=edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000758s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+
+[ 2020-08-18T09:38:21+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001552s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 65 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2020-08-18T09:39:07+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11955
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 35 行.
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2020-08-18T09:39:39+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11955
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 35 行.
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2020-08-18T09:39:50+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11959
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000777s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 35 行.
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2020-08-18T09:39:59+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11958
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000898s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 35 行.
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2020-08-18T09:40:08+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11955
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000878s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 35 行.
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2020-08-18T09:40:13+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11960
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000932s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 35 行.
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2020-08-18T09:45:54+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11958
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000790s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 35 行.
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2020-08-18T09:50:32+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=index&menuid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000803s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 65 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2020-08-18T10:03:34+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000849s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\4e7d45d3c7a6effe724595d64ca9eae6.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2020-08-18T10:16:26+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11958
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000740s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 35 行.
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2020-08-18T14:20:01+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002294s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type C:\dev\www\dev\mql\application\Common\Common\function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type C:\dev\www\dev\mql\application\Common\Common\function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\4e7d45d3c7a6effe724595d64ca9eae6.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2020-08-18T14:20:04+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type C:\dev\www\dev\mql\application\Common\Common\function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type C:\dev\www\dev\mql\application\Common\Common\function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\4e7d45d3c7a6effe724595d64ca9eae6.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.001516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001824s ]
+
+[ 2020-08-18T14:20:05+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002584s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001958s ]
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type C:\dev\www\dev\mql\application\Common\Common\function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type C:\dev\www\dev\mql\application\Common\Common\function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\4e7d45d3c7a6effe724595d64ca9eae6.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2020-08-18T14:20:06+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003485s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type C:\dev\www\dev\mql\application\Common\Common\function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type C:\dev\www\dev\mql\application\Common\Common\function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\4e7d45d3c7a6effe724595d64ca9eae6.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2020-08-18T14:20:07+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002486s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined index: login_type C:\dev\www\dev\mql\application\Common\Common\function.php 第 1885 行.
+NOTIC: [8] Undefined index: live_type C:\dev\www\dev\mql\application\Common\Common\function.php 第 1891 行.
+NOTIC: [8] Undefined index: name_coin C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 34 行.
+NOTIC: [8] Undefined index: name_votes C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 35 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 94 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 578 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\dev\www\dev\mql\application\Common\Controller\HomebaseController.class.php 第 120 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+NOTIC: [8] Undefined offset: 0 C:\dev\www\dev\mql\simplewind\Core\Library\Think\Db\Driver.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\4e7d45d3c7a6effe724595d64ca9eae6.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2020-08-18T14:27:55+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11958
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002665s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 35 行.
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2020-08-18T14:28:06+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11958
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003400s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 35 行.
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2020-08-18T14:34:33+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPage&a=index&menuid=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002356s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002460s ]
+NOTIC: D方法实例化没找到模型类Common\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: start_time C:\dev\www\dev\mql\data\runtime\Cache\Portal\5083009d27e056fc58a4f1c04fed0447.php 第 60 行.
+NOTIC: [8] Undefined index: end_time C:\dev\www\dev\mql\data\runtime\Cache\Portal\5083009d27e056fc58a4f1c04fed0447.php 第 61 行.
+NOTIC: [8] Undefined index: keyword C:\dev\www\dev\mql\data\runtime\Cache\Portal\5083009d27e056fc58a4f1c04fed0447.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2020-08-18T14:34:33+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=index&menuid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002236s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002622s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: end_time C:\dev\www\dev\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 65 行.
+NOTIC: [8] Undefined index: keyword C:\dev\www\dev\mql\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2020-08-18T14:34:35+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminTerm&a=index&menuid=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002705s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2020-08-18T14:35:41+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11960
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002461s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001996s ]
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 35 行.
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2020-08-18T14:45:13+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11959
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 35 行.
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2020-08-18T14:45:24+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\4e7d45d3c7a6effe724595d64ca9eae6.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2020-08-18T14:45:27+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002346s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\4e7d45d3c7a6effe724595d64ca9eae6.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2020-08-18T14:45:31+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002255s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\4e7d45d3c7a6effe724595d64ca9eae6.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2020-08-18T14:45:35+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003800s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\4e7d45d3c7a6effe724595d64ca9eae6.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2020-08-18T14:46:47+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11955
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002382s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 35 行.
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2020-08-18T14:46:54+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002350s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: user C:\dev\www\dev\mql\data\runtime\Cache\Portal\4e7d45d3c7a6effe724595d64ca9eae6.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2020-08-18T15:25:10+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2020-08-18T15:25:11+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002452s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2020-08-18T15:25:12+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003746s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002055s ]
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2020-08-18T15:25:14+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003657s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2020-08-18T15:36:40+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002419s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002078s ]
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2020-08-18T15:39:17+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11959
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002306s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined index: record_video C:\dev\www\dev\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2020-08-18T15:39:46+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11955
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002357s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001969s ]
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index: record_video C:\dev\www\dev\mql\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2020-08-18T15:40:03+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002438s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2020-08-18T15:40:09+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=news&id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002295s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001927s ]
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch C:\dev\www\dev\mql\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a C:\dev\www\dev\mql\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+

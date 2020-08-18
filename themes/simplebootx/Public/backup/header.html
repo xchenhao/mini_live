@@ -1,0 +1,46 @@
+<!-- Fixed navbar -->
+<div class="navbar navbar-inverse">
+	<div class="container">
+		<div class="navbar-header">
+			<!-- Button for smallest screens -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span></button>
+				<a class="navbar-brand" href="/">
+					{$site_name}
+				</a>
+				<style>
+					.navbar-brand{
+						color: #ae130c !important;
+					}
+					.navbar-brand:first-letter{
+						font-size: 36px;
+					}
+				</style>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav pull-right mainNav">
+				<li class="active"><a href="/">首页</a></li>
+				<li><a href="/index.php?g=portal&m=page&a=news&id=25"><i class="fa fa-tags"></i>直播公约</a></li>
+				<li><a href="/index.php?g=portal&m=page&a=news&id=26"><i class="fa fa-tags"></i>直播服务协议</a></li>
+				<li><a href="/index.php?g=portal&m=page&a=news&id=27"><i class="fa fa-tags"></i>直播承诺书</a></li>
+				
+				<li><a href="/index.php?g=portal&m=page&a=music">音乐欣赏</a></li>
+				<li><a href="/admin/">后台监管</a></li>
+				<if condition="!$user">
+					<li><a href="###" onclick="Login.login()">登录</a></li>
+					<li><a href="###" onclick='Login.reg();'>注册</a></li>
+					<else />
+					<li><a href="./{$user['id']}">{$user['user_nicename']}</a></li>
+					<li><a href="./index.php?m=Personal&a=index">个人中心</a></li>
+					<li><a onclick="Login.logout()">退出登录</a></li>
+					
+				</if>
+			</ul>
+		</div>
+		<!--/.nav-collapse -->
+	</div>
+</div>
+<!-- /.navbar -->
+

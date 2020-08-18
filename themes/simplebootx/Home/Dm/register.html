@@ -1,0 +1,227 @@
+<!doctype html>
+
+<html lang="zh">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="请输入站点关键字">
+  <meta name="description" content="请输入站点信息">
+  
+  
+  <link rel="stylesheet" href="/public/dm/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/public/dm/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/public/dm/css/animate.css">
+  <link rel="stylesheet" href="/public/dm/css/hover-min.css">
+  
+  <link rel="stylesheet" href="/public/dm/css/main.css">
+  <link rel="icon" href="/public/dm/image/favicon.ico">
+  <title>注册 - 北京猫眼文化传媒有限公司</title>
+  
+  
+</head>
+ <!--oncontextmenu="doNothing()"-->
+<body oncontextmenu="doNothing()" class="login">
+<div class="wrapper">
+  
+  <div class="header"><div class="header">
+    <div class="l1">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h5>欢迎来到 <span>北京猫眼文化传媒有限公司</span> 网站！</h5>
+                </div>
+                <div class="col-6 text-right">
+                    <h5>服务热线：<span>10105335</span></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="l2">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="background-color: #FFFFFF!important;">
+            <div class="container">
+                <a class="navbar-brand" href="javascript:">
+                    <img src="/public/dm/picture/logo2.png" class="img-fluid">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/index')}">首页</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/category')}">黏黏表情包</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/category2')}">牙呀表情包</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/login')}">登录</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/register')}">注册</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div></div>
+  
+  <div class="content">
+    
+    <div id="message-app"></div>
+    
+<div class="container-fluid login-container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="login-box">
+                <form class="login-form" method="post" id='formid' onsubmit="return false">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="ZsrSUMjeozk1nuTdgkJaZGimrPtz1ttGk4C8Pm3SSEL379VghEN3zNo4JncdehlH">
+                    
+                    <div class="login-header">
+                        <h3>用户注册</h3>
+                    </div>
+                    
+                    
+                    
+                    
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-user"></i></span>
+                        </div>
+                        <input type="text" name="username" class="form-control" placeholder="用户名" maxlength="20" minlength="5" required id="id_username">
+                    </div>
+                    
+                    
+                    <div class="input-group">
+                        <span class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                        </span>
+                        <input type="password" name="password" class="form-control" placeholder="密码" maxlength="20" minlength="8" required id="id_password">
+                    </div>
+                    
+                    
+                    <div class="input-group">
+                        <span class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                        </span>
+                        <input type="password" name="password2" class="form-control" placeholder="请确认密码" maxlength="20" minlength="8" required id="id_password2">
+                    </div>
+                    
+                    
+                    
+                    <button class="form-control btn-primary submit-row" style="background-color: red;border-color: red;" onclick="zc()">注册</button>
+                    
+                    <div class="other-login">
+                        <div class="title"><span>OR</span><i class="line"></i></div>
+                        <div class="item" id="account-login-link">
+                            <a href="{:U('home/Dm/login')}">
+                                账号登录
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  </div>
+  
+  <script>
+  	function zc(){
+      var form = $("#formid").serialize();
+    	$.ajax({
+            type:'post',
+            url:"{:U('home/Dm/zc')}",
+            data:form,
+            success:function(data){
+              if(data == 1){
+              		alert('密码不一致，请重新输入！');
+              }else if(data == 2){
+              		alert('账户不能为空！');
+              }else{
+              		alert('注册成功！');
+                	window.location.href="{:U('home/Dm/login')}";
+              }
+            }
+		});
+    }
+  
+  </script>
+  
+  
+  
+  <div class="footer">
+    <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-left">
+                <div>
+                    <p>客服电话：10105335</p>
+                    <p>合作邮箱：v@maoyan.com</p>
+                    <p>投诉邮箱：tousujubao@meituan.com</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 text-right">
+                <img src="/public/dm/picture/logo2.png" class="img-fluid" style="max-height: 120px">
+            </div>
+        </div>
+        <div class="copyright text-center">
+    		<p>Copyright © 2016 北京猫眼文化传媒有限公司 All Rights Reserved. | 京公网安备 11010102003232号</p>
+        </div>
+    </div>
+</div>
+
+  </div>
+
+
+<script src="/public/dm/js/jquery3.3.1.min.js"></script>
+<script src="/public/dm/js/popper.min.js"></script>
+<script src="/public/dm/js/bootstrap.min.js"></script>
+
+
+<script src="/public/dm/js/vue.js"></script>
+
+<script src="/public/dm/js/jquery.cookie.js"></script>
+<script src="/public/dm/js/holder.min.js"></script>
+<script src="/public/dm/js/main.js"></script>
+
+
+
+
+<script type="text/javascript">
+    function doNothing(){
+        window.event.returnValue=false;
+        return false;
+    }
+</script>
+
+
+
+
+<script src="/public/dm/js/login.js"></script>
+
+<script>
+    $("button.submit-row").click(function () {
+        $(this).attr('disabled', true);
+        $(".login-form").submit();
+        setTimeout(function () {
+            $("button.submit-row").attr('disabled', false);
+        }, 3 * 1000);
+    });
+</script>
+
+</body>
+</html>

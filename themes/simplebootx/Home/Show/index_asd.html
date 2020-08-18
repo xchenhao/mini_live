@@ -1,0 +1,465 @@
+<tc_include file="Public:header" />
+<tc_include file="Public:navbar" />
+<script src="/public/jsdev/flv.js"></script>
+
+
+<body class="home-show">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/home/show/css/show.css"/>
+<link rel="stylesheet" type="text/css" href="/public/assets/src/css/show.css"/>
+<div class="container show-content">
+    <div class="row">
+        <div class="col-md-6 left">
+
+                <div class="mainContainer">
+                        <div>
+                            <div id="streamURL">
+                                <div class="url-input" style="display: none">
+                                    <label for="sURL">Stream URL:</label>
+                                    <input id="sURL" type="text" value="{$pull}" />
+                                    <button onclick="switch_mds()">Switch to MediaDataSource</button>
+                                </div>
+                                <div class="options" style="display: none">
+                                    <input type="checkbox" id="isLive" onchange="saveSettings()" />
+                                    <label for="isLive" checked>isLive</label>
+                                    <input type="checkbox" id="withCredentials" onchange="saveSettings()" />
+                                    <label for="withCredentials">withCredentials</label>
+                                    <input type="checkbox" id="hasAudio" onchange="saveSettings()" checked />
+                                    <label for="hasAudio">hasAudio</label>
+                                    <input type="checkbox" id="hasVideo" onchange="saveSettings()" checked />
+                                    <label for="hasVideo">hasVideo</label>
+                                </div>
+                            </div>
+                            <div id="mediaSourceURL" class="hidden" style="display:none">
+                                <div class="url-input">
+                                    <label for="msURL">MediaDataSource JsonURL:</label>
+                                    <input id="msURL" type="text" value="http://127.0.0.1/flv/7182741.json" />
+                                    <button onclick="switch_url()">Switch to URL</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-container">
+                            <div>
+                                <video name="videoElement" class="centeredVideo" controls autoplay style="    height: 600px;">
+                                    您的浏览器不支持
+                                </video>
+                            </div>
+                        </div>
+                        <div class="controls" style="display: none">
+                            <button onclick="flv_load()">Load</button>
+                            <button onclick="flv_start()">Start</button>
+                            <button onclick="flv_pause()">Pause</button>
+                            <button onclick="flv_destroy()">Destroy</button>
+                            <input style="width:100px" type="text" name="seekpoint"/>
+                            <button onclick="flv_seekto()">SeekTo</button>
+                        </div>
+                        <textarea name="logcatbox" class="logcatBox" rows="10" readonly style="display: none"></textarea>
+                    </div>
+
+
+
+
+        </div>
+
+
+
+        <div class="col-md-6 right">
+            <!--主播信息-->
+            <div class="author">
+                <div class="media">
+                    <img src="{$anchorinfo.avatar}" class="img-fluid" />
+                    <div class="media-body">
+                        <h5>{$anchorinfo.user_nicename}</h5>
+                        <p>ID：{$anchorinfo.id}</p>
+                        <a class="btn btn-primary BTN-add-attention" href="javascript:void(0)">+关注</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--信息通知-->
+            <div class="chart-area">
+                <!-- 信息通知 -->
+                <div class="SR-area-chat" id="LF-area-chat">
+                    <div class="chat-msg" id="LF-chat-msg">
+                        <!-- 礼物记录 -->
+                        <div class="MR-msg">
+                            <div class="msg-gift player-main" id="msg_gift">
+                                <div class="MR-chat">
+                                    <div class="boarder">
+                                        <ul class="clearfix">
+
+                                        </ul>
+                                    </div>
+                                    <div class="scroller"></div>
+                                </div>
+                                <div class="hjPopbox"></div>
+                            </div>
+                            <span class="MR-sound-toggle hide">声效开</span>
+                            <div class="MR-sound-tip hide"></div>
+                        </div>
+                        <!-- 聊天记录 -->
+                        <div id="LF-chat-msg-area" class="MR-msg">
+                            <div class="msg-chat">
+                                <div class="MR-chat">
+                                    <div class="boarder">
+                                        <ul class="clearfix">
+                                            <!-- <li><span class="fake-name">管理小助手：</span>亲，想知道播客最新消息么？请“关注”Ta。</li> -->
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="scroller"></div> -->
+                                    <span class="ICON-lock-screen hide"></span>
+                                </div>
+                            </div>
+                            <div class="MR-msg-notice clearfix hide">
+                                <span class="title">弹幕</span>
+                                <div class="msg-content"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="chat-talk" id="LF-chat-talk">
+                        <div class="MR-talk">
+                            <span class="send-btn">发送</span>
+                            <div class="speaker">
+                                <input type="text" value="想对主播说点什么？" />
+                                <cite>30</cite>
+                            </div>
+                            <div class="emoticon-toggle-panel">
+                            </div>
+                        </div>
+                        <!-- 喇叭 -->
+                        <div class="MR-horn">
+                            <div class="toggle"></div>
+                            <div class="selector M-bubble hide">
+                                <div class="arrow-right"></div>
+                                <span class="closed"></span>
+                                <div class="detail">
+                                    <div class="btn gold hide" data-gid="" data-num="0">
+                                        <p class="name">金喇叭<span class="num"></span></p>
+                                        <p class="price"><i class="ICON-coins">200</i></p>
+                                    </div>
+                                    <div class="btn site" data-gid="" data-num="0">
+                                        <p class="name">弹幕<span class="num"></span></p>
+                                        <p class="price"><i class="ICON-coins">{$getConfigPri['barrage_fee']}</i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dialog hide">
+                                <h4 class="gold"><i></i></h4>
+                                <div class="detail">
+                                    <textarea>请输入...</textarea>
+                                    <div class="opt clearfix">
+                                        <span></span>
+                                        <span class="num" style="display: none;">，本次免费</span>
+                                        <input type="button" value="发送" class="horn-send" />
+                                    </div>
+                                    <span class="closed"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 礼物 -->
+                    <div class="chat-gift" id="LF-chat-gift">
+                        <div class="MR-gift">
+                            <div class="gift-panel">
+                                <ul class="gift-tab">
+                                    <li data-index="0" class="on">热门<i class="dot-new"></i></li>
+                                    <!-- <li data-index="1">豪华</li>
+                                    <li data-index="2">特殊</li>
+                                    <li data-index="3">专属</li>
+                                    <li data-index="4">我的包裹<i class="dot-tip hide"></i></li> -->
+                                </ul>
+                                <div class="gift-con">
+                                    <div class="gift-group">
+
+                                        <div class="gift-wrap">
+                                            <div class="M-arrow-scroll">
+                                                <span class="left-arrow hide"></span>
+                                                <span class="right-arrow"></span>
+                                                <div class="con">
+                                                    <div class="scroll">
+                                                        <ul class="clearfix">
+                                                            <volist name="giftinfo" id="v">
+                                                                <li class="gift " data-locked="0" data-title="{$v['giftname']}" data-name="{$v['giftname']}" data-id="{$v['id']}" data-price="{$v['needcoin']}">
+                                                                    <div class="gift-pic">
+                                                                        <img src="{$v['gifticon']}" />
+                                                                    </div>
+                                                                    <if condition="$v['type'] eq '1'">
+                                                                        <div class="gift-lian">
+                                                                            连
+                                                                        </div>
+                                                                    </if>
+                                                                </li>
+                                                            </volist>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="MR-gift-tip hide">
+                                            <div class="tip-content">
+                                                <img class="tip-img" src="" >
+                                                <div class="gift-tip-con">
+                                                    <span class="gift-tip-name"></span>
+                                                    <span class="gift-tip-price"></span>
+                                                </div>
+                                                <div class="gift-tip-desc"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gift-footer clearfix">
+                                        <!-- 星星 -->
+                                        <div class="MR-free-gift hide">
+                                            <div class="MR-star">
+                                                <div class="progress"></div>
+                                                <div class="icon"></div>
+                                                <div class="count">
+                                                    40
+                                                </div>
+                                            </div>
+                                            <ul class="freegift-more clrearfix">
+                                                <li class="more-btn star-0">
+                                                    <div class="icon"></div>
+                                                </li>
+                                                <li class="more-btn star-1">
+                                                    <div class="icon"></div>
+                                                </li>
+                                                <li class="more-btn star-10">
+                                                    <div class="icon"></div>
+                                                    <div class="bg">
+                                                        <div class="tips ">
+                                                            星动
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- 点歌 -->
+                                        <div class="MR-app MR-app-content hide">
+                                            <div class="MR-app-item M-app-UI-enable">
+                                                <span class="icon app-icon-song"></span>
+                                                <span class="title">点歌</span>
+                                            </div>
+                                        </div>
+                                        <!-- 礼物赠送数量 -->
+                                        <div class="MR-moregift">
+                                            <a class="send-btn" href="javascript:void(0);">赠送</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 头条 -->
+                    <div class="MR-big-gift">
+                        <div class="out-boxer" style="opacity: 1; top: 0px;">
+                            <div class="high-boxer" style="margin-left: -149.5px;">
+                                <a href="/room/67656" target="_blank">
+                                    <cite class="photoer"><img src="http://static.youku.com/ddshow/img/avatar/80/33.jpg" /></cite>
+                                    <cite class="desc">
+                                        <span class="user" title="榴莲的小狮子">榴莲的小狮子</span>
+                                        <span class="txt">送给</span>
+                                        <span class="name" title="大大元气满满">大大元气满满</span>心心相印
+                                    </cite>
+                                    <span class="gift-pic"><img src="http://static.youku.com/ddshow/img/lfgift/xxxy5_80_80.png" /></span>
+                                    <cite class="desc gift-num">x188</cite>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+</div>
+</body>
+
+
+<script>
+        var checkBoxFields = ['isLive', 'withCredentials', 'hasAudio', 'hasVideo'];
+        var streamURL, mediaSourceURL;
+
+        function flv_load() {
+            console.log('isSupported: ' + flvjs.isSupported());
+            if (mediaSourceURL.className === '') {
+                var url = document.getElementById('msURL').value;
+    
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', url, true);
+                xhr.onload = function (e) {
+                    var mediaDataSource = JSON.parse(xhr.response);
+                    flv_load_mds(mediaDataSource);
+                }
+                xhr.send();
+            } else {
+                var i;
+                var mediaDataSource = {
+                    type: 'flv'
+                };
+                for (i = 0; i < checkBoxFields.length; i++) {
+                    var field = checkBoxFields[i];
+                    /** @type {HTMLInputElement} */
+                    var checkbox = document.getElementById(field);
+                    mediaDataSource[field] = checkbox.checked;
+                }
+                mediaDataSource['url'] = document.getElementById('sURL').value;
+                console.log('MediaDataSource', mediaDataSource);
+                flv_load_mds(mediaDataSource);
+            }
+        }
+
+        function flv_load_mds(mediaDataSource) {
+            var element = document.getElementsByName('videoElement')[0];
+            if (typeof player !== "undefined") {
+                if (player != null) {
+                    player.unload();
+                    player.detachMediaElement();
+                    player.destroy();
+                    player = null;
+                }
+            }
+            player = flvjs.createPlayer(mediaDataSource, {
+                enableWorker: false,
+                lazyLoadMaxDuration: 3 * 60,
+                seekType: 'range',
+            });
+            player.attachMediaElement(element);
+            player.load();
+        }
+
+        function flv_start() {
+            player.play();
+        }
+
+        function flv_pause() {
+            player.pause();
+        }
+
+        function flv_destroy() {
+            player.pause();
+            player.unload();
+            player.detachMediaElement();
+            player.destroy();
+            player = null;
+        }
+
+        function flv_seekto() {
+            var input = document.getElementsByName('seekpoint')[0];
+            player.currentTime = parseFloat(input.value);
+        }
+
+        function switch_url() {
+            streamURL.className = '';
+            mediaSourceURL.className = 'hidden';
+            saveSettings();
+        }
+
+        function switch_mds() {
+            streamURL.className = 'hidden';
+            mediaSourceURL.className = '';
+            saveSettings();
+        }
+
+        function ls_get(key, def) {
+            try {
+                var ret = localStorage.getItem('flvjs_demo.' + key);
+                if (ret === null) {
+                    ret = def;
+                }
+                return ret;
+            } catch (e) {}
+            return def;
+        }
+
+        function ls_set(key, value) {
+            try {
+                localStorage.setItem('flvjs_demo.' + key, value);
+            } catch (e) {}
+        }
+
+        function saveSettings() {
+            if (mediaSourceURL.className === '') {
+                ls_set('inputMode', 'MediaDataSource');
+            } else {
+                ls_set('inputMode', 'StreamURL');
+            }
+            var i;
+            for (i = 0; i < checkBoxFields.length; i++) {
+                var field = checkBoxFields[i];
+                /** @type {HTMLInputElement} */
+                var checkbox = document.getElementById(field);
+                ls_set(field, checkbox.checked ? '1' : '0');
+            }
+            var msURL = document.getElementById('msURL');
+            var sURL = document.getElementById('sURL');
+            ls_set('msURL', msURL.value);
+            ls_set('sURL', sURL.value);
+            console.log('save');
+        }
+
+        function loadSettings() {
+            var i;
+            for (i = 0; i < checkBoxFields.length; i++) {
+                var field = checkBoxFields[i];
+                /** @type {HTMLInputElement} */
+                var checkbox = document.getElementById(field);
+                var c = ls_get(field, checkbox.checked ? '1' : '0');
+                checkbox.checked = c === '1' ? true : false;
+            }
+
+            var msURL = document.getElementById('msURL');
+            var sURL = document.getElementById('sURL');
+            msURL.value = ls_get('msURL', msURL.value);
+            sURL.value = ls_get('sURL', sURL.value);
+            if (ls_get('inputMode', 'StreamURL') === 'StreamURL') {
+                switch_url();
+            } else {
+                switch_mds();
+            }
+        }
+
+        function showVersion() {
+            var version = flvjs.version;
+            document.title = document.title + " (v" + version + ")";
+        }
+
+        var logcatbox = document.getElementsByName('logcatbox')[0];
+        flvjs.LoggingControl.addLogListener(function(type, str) {
+            
+            if(str.indexOf('Received Initialization Segment')>0){
+                console.log('start live')
+                flv_start();
+            }
+
+            if(str.indexOf('MediaSource onSourceEnded')> 0){
+                alert('主播已经断开连接');
+            }
+            // logcatbox.value = logcatbox.value + str + '\n';
+            // logcatbox.scrollTop = logcatbox.scrollHeight;
+
+
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            streamURL = '{$pull}';
+            mediaSourceURL = document.getElementById('mediaSourceURL');
+            loadSettings();
+            showVersion();
+            flv_load();
+            // flv_start();
+        });
+</script>
+
+<style>
+    .main{
+        margin: 40px;
+        margin-left: 13%;
+    }
+</style>
+<tc_include file="Public:footer" />
+

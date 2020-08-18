@@ -1,0 +1,687 @@
+[ 2019-11-18T10:10:12+08:00 ] 111.198.242.212 /index.php?g=User&m=Indexadmin&a=index&menuid=134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 32 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 37 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 42 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 49 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 54 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 59 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 64 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 68 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: pList /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 226 行.
+NOTIC: [8] Undefined variable: pListStart /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pListEnd /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pFirst /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pPrev /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 62 行.
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 63 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 68 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 69 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 75 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 76 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 81 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 82 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 91 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 92 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000030s ]
+
+[ 2019-11-18T10:10:43+08:00 ] 111.198.242.212 /index.php?g=User&m=indexadmin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 62 行.
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 63 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 68 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 69 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 75 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 76 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 81 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 82 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 91 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2019-11-18T10:10:47+08:00 ] 111.198.242.212 /index.php?g=User&m=indexadmin&a=edit&id=11831
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2019-11-18T10:10:53+08:00 ] 111.198.242.212 /index.php?g=User&m=indexadmin&a=edit&id=11828
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2019-11-18T10:32:25+08:00 ] 123.15.49.66 /index.php?g=User&m=Indexadmin&a=index&menuid=134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 32 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 37 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 42 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 49 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 54 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 59 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 64 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 68 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: pList /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 226 行.
+NOTIC: [8] Undefined variable: pListStart /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pListEnd /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pFirst /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pPrev /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 62 行.
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 63 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 68 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 69 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 75 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 76 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 81 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 82 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 91 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 92 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2019-11-18T10:32:29+08:00 ] 123.15.49.66 /index.php?g=User&m=indexadmin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 62 行.
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 63 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 68 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 69 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 75 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 76 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 81 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 82 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 91 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2019-11-18T10:32:33+08:00 ] 123.15.49.66 /index.php?g=User&m=indexadmin&a=edit&id=11831
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2019-11-18T10:32:47+08:00 ] 123.15.49.66 /index.php?g=User&m=Indexadmin&a=index&menuid=134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 32 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 37 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 42 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 49 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 54 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 59 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 64 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 68 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: pList /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 226 行.
+NOTIC: [8] Undefined variable: pListStart /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pListEnd /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pFirst /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pPrev /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 62 行.
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 63 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 68 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 69 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 75 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 76 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 81 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 82 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 91 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 92 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2019-11-18T10:32:51+08:00 ] 123.15.49.66 /index.php?g=User&m=indexadmin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 62 行.
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 63 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 68 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 69 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 75 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 76 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 81 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 82 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 91 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2019-11-18T10:48:12+08:00 ] 123.15.49.66 /index.php?g=User&m=Indexadmin&a=index&menuid=134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 32 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 37 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 42 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 49 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 54 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 59 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 64 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 68 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: pList /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 226 行.
+NOTIC: [8] Undefined variable: pListStart /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pListEnd /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pFirst /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pPrev /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 62 行.
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 63 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 68 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 69 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 75 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 76 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 81 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 82 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 91 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 92 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2019-11-18T10:48:16+08:00 ] 123.15.49.66 /index.php?g=User&m=indexadmin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 62 行.
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 63 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 68 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 69 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 75 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 76 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 81 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 82 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 91 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2019-11-18T10:48:18+08:00 ] 123.15.49.66 /index.php?g=User&m=indexadmin&a=edit&id=11959
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000029s ]
+
+[ 2019-11-18T10:48:22+08:00 ] 123.15.49.66 /index.php?g=User&m=indexadmin&a=edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: validate /data/wwwroot/ybzb/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /data/wwwroot/ybzb/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+
+[ 2019-11-18T10:48:22+08:00 ] 123.15.49.66 /index.php?g=User&m=indexadmin&a=edit&id=11959
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2019-11-18T10:53:51+08:00 ] 111.198.242.212 /index.php?g=User&m=Indexadmin&a=index&menuid=134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 32 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 37 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 42 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 49 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 54 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 59 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 64 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 68 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: pList /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 226 行.
+NOTIC: [8] Undefined variable: pListStart /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pListEnd /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pFirst /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pPrev /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 62 行.
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 63 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 68 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 69 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 75 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 76 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 81 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 82 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 91 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 92 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2019-11-18T10:53:58+08:00 ] 111.198.242.212 /index.php?g=User&m=indexadmin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 62 行.
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 63 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 68 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 69 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 75 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 76 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 81 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 82 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 91 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2019-11-18T10:54:01+08:00 ] 111.198.242.212 /index.php?g=User&m=Indexadmin&a=index&menuid=134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 32 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 37 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 42 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 49 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 54 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 59 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 64 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 68 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: pList /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 226 行.
+NOTIC: [8] Undefined variable: pListStart /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pListEnd /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pFirst /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pPrev /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 62 行.
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 63 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 68 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 69 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 75 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 76 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 81 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 82 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 91 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 92 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2019-11-18T10:54:05+08:00 ] 111.198.242.212 /index.php?g=User&m=indexadmin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 62 行.
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 63 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 68 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 69 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 75 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 76 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 81 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 82 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 91 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2019-11-18T10:55:39+08:00 ] 111.198.242.212 /index.php?g=User&m=Indexadmin&a=index&menuid=134
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 32 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 37 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 42 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 49 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 54 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 59 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 64 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 68 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/ybzb/application/User/Controller/IndexadminController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: pList /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 226 行.
+NOTIC: [8] Undefined variable: pListStart /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pListEnd /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pFirst /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pPrev /data/wwwroot/ybzb/simplewind/Lib/Util/Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 62 行.
+NOTIC: [8] Undefined index: iszombie /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 63 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 68 行.
+NOTIC: [8] Undefined index: iszombiep /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 69 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 75 行.
+NOTIC: [8] Undefined index: isban /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 76 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 81 行.
+NOTIC: [8] Undefined index: ishot /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 82 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 87 行.
+NOTIC: [8] Undefined index: issuper /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 88 行.
+NOTIC: [8] Undefined index: start_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 91 行.
+NOTIC: [8] Undefined index: end_time /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 92 行.
+NOTIC: [8] Undefined index: keyword /data/wwwroot/ybzb/data/runtime/Cache/User/a348394835ede61f1587cc69a78f0b8c.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+

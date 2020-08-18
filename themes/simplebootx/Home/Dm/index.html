@@ -1,0 +1,1037 @@
+<!doctype html>
+
+<html lang="zh">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="请输入站点关键字">
+  <meta name="description" content="请输入站点信息">
+  
+  
+  <link rel="stylesheet" href="/public/dm/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/public/dm/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/public/dm/css/animate.css">
+  <link rel="stylesheet" href="/public/dm/css/hover-min.css">
+  
+  <link rel="stylesheet" href="/public/dm/css/main.css">
+  <link rel="icon" href="/public/dm/image/favicon.ico">
+  <title>首页 - 北京猫眼文化传媒有限公司</title>
+  
+  
+</head>
+ <!--oncontextmenu="doNothing()"-->
+<body oncontextmenu="doNothing()" class="">
+<div class="wrapper">
+  
+  <div class="header"><div class="header">
+    <div class="l1">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h5>欢迎来到 <span>北京猫眼文化传媒有限公司</span> 网站！</h5>
+                </div>
+              
+             
+                <div class="col-6 text-right">
+                    <h5>
+                      <if condition="!empty($data['name'])">
+                      欢迎 {$data['name']} 来到猫眼动漫   
+                      <else />
+                        <a href="{:U('home/dm/login')}">【请登录】</a>
+                      </if>
+                      |   服务热线：<span>10105335</span></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="l2">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="background-color: #FFFFFF!important;">
+            <div class="container">
+                <a class="navbar-brand" href="javascript:">
+                    <img src="/public/dm/picture/logo2.png" class="img-fluid">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/index')}">首页</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/category')}">黏黏表情包</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/category2')}">牙呀表情包</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/login')}">登录</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/register')}">注册</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div></div>
+  
+  <div class="content">
+    
+    <div id="message-app"></div>
+    
+
+    
+<div class="jumbotron index-banner">
+    <div class="container">
+        <!-- <h1>大文明时代动漫，动漫世界的海洋</h1> -->
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row t-list">
+        
+        
+        <div class="col-3" >
+          <a href="{:U('home/dm/detail',array('dm'=>'wow','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/wow.gif">
+                <h4>wow</h4>
+            </div>
+            </a>
+        </div>
+
+
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'暗中观察','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/暗中观察.gif">
+                <h4>暗中观察</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'白眼','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/白眼.gif">
+                <h4>白眼</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'蹦跶','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/蹦跶.gif">
+                <h4>蹦跶</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'不行','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/不行.gif">
+                <h4>不行</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'彩虹','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/彩虹.gif">
+                <h4>彩虹</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'菜叶子','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/菜叶子.gif">
+                <h4>菜叶子</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'吃瓜','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/吃瓜.gif">
+                <h4>吃瓜</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'吃鸡','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/吃鸡.gif">
+                <h4>吃鸡</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'窗口抖动','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/窗口抖动.gif">
+                <h4>窗口抖动</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'哒哒哒','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/哒哒哒.gif">
+                <h4>哒哒哒</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'嘚瑟','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/嘚瑟.gif">
+                <h4>嘚瑟</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'顶啊','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/顶啊.gif">
+                <h4>顶啊</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'放屁屁','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/放屁屁.gif">
+                <h4>放屁屁</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'害羞','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/害羞.gif">
+                <h4>害羞</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'好舒服','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/好舒服.gif">
+                <h4>好舒服</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'嗨起来','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/嗨起来.gif">
+                <h4>嗨起来</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'哼','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/哼.gif">
+                <h4>哼</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'花花','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/花花.gif">
+                <h4>花花</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'欢迎','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/欢迎.gif">
+                <h4>欢迎</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'挤啊挤','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/挤啊挤.gif">
+                <h4>挤啊挤</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'挤牙膏','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/挤牙膏.gif">
+                <h4>挤牙膏</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'拒绝','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/拒绝.gif">
+                <h4>拒绝</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'啦啦啦','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/啦啦啦.gif">
+                <h4>啦啦啦</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'理我一下','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/理我一下.gif">
+                <h4>理我一下</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'路过','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/路过.gif">
+                <h4>路过</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'略略略','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/略略略.gif">
+                <h4>略略略</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'么么哒','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/么么哒.gif">
+                <h4>么么哒</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'没事我很好','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/没事我很好.gif">
+                <h4>没事我很好</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'你好','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/你好.gif">
+                <h4>你好</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'扭啊扭','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/扭啊扭.gif">
+                <h4>扭啊扭</h4>
+            </div>
+        </a>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'凄凉','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img1/凄凉.gif">
+                <h4>凄凉</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'少吃糖','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img1/少吃糖.gif">
+                <h4>少吃糖</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'刷牙牙','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img1/刷牙牙.gif">
+                <h4>刷牙牙</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'躺过','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img1/躺过.gif">
+                <h4>躺过</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'跳水','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img1/跳水.gif">
+                <h4>跳水</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'围观','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img1/围观.gif">
+                <h4>围观</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'想吃怕胖','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img1/想吃怕胖.gif">
+                <h4>想吃怕胖</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'心跳','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img1/心跳.gif">
+                <h4>心跳</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'疑问','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img1/疑问.gif">
+                <h4>疑问</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'有点甜','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img1/有点甜.gif">
+                <h4>有点甜</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'有人吗','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img1/有人吗.gif">
+                <h4>有人吗</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'再见','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img1/再见.gif">
+                <h4>再见</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'怎么办','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/怎么办.gif">
+                <h4>怎么办</h4>
+            </div>
+        </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'真妙','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/真妙.gif">
+                <h4>真妙</h4>
+            </div>
+        </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'走开','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img1/走开.gif">
+                <h4>走开</h4>
+            </div>
+            </a>
+        </div>
+
+
+
+
+            
+        <!-- 2 -->
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'666','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/666.gif">
+                <h4>666</h4>
+            </div>
+        </a>
+        </div>
+
+
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'biubiubiu','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/biubiubiu.gif">
+                <h4>biubiubiu</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'no','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/no.gif">
+                <h4>no</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'ok','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/ok.gif">
+                <h4>ok</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'surprise','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/surprise.gif">
+                <h4>surprise</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'thank-you','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/thank-you.gif">
+                <h4>thank-you</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'哎','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/哎.gif">
+                <h4>哎</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'爱你哦','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/爱你哦.gif">
+                <h4>爱你哦</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'拜托啦','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/拜托啦.gif">
+                <h4>拜托啦</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'不想理你','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/不想理你.gif">
+                <h4>不想理你</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'不想上班','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/不想上班.gif">
+                <h4>不想上班</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'打不着','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/打不着.gif">
+                <h4>打不着</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'打呼噜','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/打呼噜.gif">
+                <h4>打呼噜</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'都出来玩耍啊','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/都出来玩耍啊.gif">
+                <h4>都出来玩耍啊</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'发抖','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/发抖.gif">
+                <h4>发抖</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'发火','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/发火.gif">
+                <h4>发火</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'尴尬','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/尴尬.gif">
+                <h4>尴尬</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'告辞','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/告辞.gif">
+                <h4>告辞</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'滚','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/滚.gif">
+                <h4>滚</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'哈哈','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/哈哈.gif">
+                <h4>哈哈</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'好吃哒','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/好吃哒.gif">
+                <h4>好吃哒</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'呵呵','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/呵呵.gif">
+                <h4>呵呵</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'嘿嘿','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/嘿嘿.gif">
+                <h4>嘿嘿</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'加油','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img2/加油.gif">
+                <h4>加油</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'健身呀','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/健身呀.gif">
+                <h4>健身呀</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'锦鲤','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/锦鲤.gif">
+                <h4>锦鲤</h4>
+            </div>
+            </a>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'哭唧唧','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/哭唧唧.gif">
+                <h4>哭唧唧</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'浪啊浪','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/浪啊浪.gif">
+                <h4>浪啊浪</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'冷风吹','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/冷风吹.gif">
+                <h4>冷风吹</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'路过','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/路过.gif">
+                <h4>路过</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'略','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img2/略.gif">
+                <h4>略</h4>
+            </div>
+            </a>
+        </div>
+
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'猫悄儿','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img2/猫悄儿.gif">
+                <h4>猫悄儿</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'没事','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img2/没事.gif">
+                <h4>没事</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'美梦','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img2/美梦.gif">
+                <h4>美梦</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'你好','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/你好.gif">
+                <h4>你好</h4>
+            </div>
+        </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'黏黏-路过','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/黏黏-路过.gif">
+                <h4>黏黏-路过</h4>
+            </div>
+        </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'啪啪啪','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img2/啪啪啪.gif">
+                <h4>啪啪啪</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'撒花','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img2/撒花.gif">
+                <h4>撒花</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'谁来','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/谁来.gif">
+                <h4>谁来</h4>
+            </div>
+        </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'万般皆浮云','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img2/万般皆浮云.gif">
+                <h4>万般皆浮云</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'围观','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img2/围观.gif">
+                <h4>围观</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'我错了','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/我错了.gif">
+                <h4>我错了</h4>
+            </div>
+        </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'我可没看见','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/我可没看见.gif">
+                <h4>我可没看见</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'无奈','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/无奈.gif">
+                <h4>无奈</h4>
+            </div>
+        </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'无语','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img2/无语.gif">
+                <h4>无语</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'心碎','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/心碎.gif">
+                <h4>心碎</h4>
+            </div>
+        </a>
+        </div>
+
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'心心眼','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img2/心心眼.gif">
+                <h4>心心眼</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'压力大','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img2/压力大.gif">
+                <h4>压力大</h4>
+            </div>
+            </a>
+        </div>
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'要佛系','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img2/要佛系.gif">
+                <h4>要佛系</h4>
+            </div>
+            </a>
+        </div>
+
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'有人吗','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow ">
+                <img src="/public/dm/img2/有人吗.gif">
+                <h4>有人吗</h4>
+            </div>
+            </a>
+        </div>
+
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'做鬼脸','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/做鬼脸.gif">
+                <h4>做鬼脸</h4>
+            </div>
+            </a>
+        </div>
+
+
+
+
+
+
+    </div>
+</div>
+
+
+  </div>
+
+
+
+
+
+<div class="footer" style="visibility: visible;">
+				<p class="friendly-links"> 关于猫眼 : <a href="http://ir.maoyan.com/s/index.php#pageScroll0" target="_blank">关于我们</a> <span></span> <a href="http://ir.maoyan.com/s/index.php#pageScroll1" target="_blank">管理团队</a> <span></span> <a href="http://ir.maoyan.com/s/index.php#pageScroll2" target="_blank">投资者关系</a> &nbsp;&nbsp;&nbsp;&nbsp;
+						友情链接 : <a href="http://www.meituan.com" data-query="utm_source=wwwmaoyan" target="_blank">美团网</a> <span></span> <a href="http://www.gewara.com" data-query="utm_source=wwwmaoyan">格瓦拉</a> <span></span> <a href="http://i.meituan.com/client" data-query="utm_source=wwwmaoyan" target="_blank">美团下载</a> <span></span> <a href="https://www.huanxi.com" data-query="utm_source=maoyan_pc" target="_blank">欢喜首映</a> </p>
+				<p class="friendly-links"> 商务合作邮箱：v@maoyan.com
+						客服电话：10105335
+						违法和不良信息举报电话：4006018900 </p>
+				<p class="friendly-links"> 用户投诉邮箱：tousujubao@meituan.com
+						舞弊线索举报邮箱：wubijubao@maoyan.com </p>
+				<p class="friendly-links  credentials"> <a href="https://maoyan.com/about/licence/1" target="_blank">中华人民共和国增值电信业务经营许可证 京B2-20190350</a> <span></span> <a href="https://maoyan.com/about/licence/4" target="_blank">营业性演出许可证 京演（机构）（2019）4094号</a> </p>
+				<p class="friendly-links  credentials"> <a href="https://maoyan.com/about/licence/3" target="_blank">广播电视节目制作经营许可证 （京）字第08478号</a> <span></span> <a href="https://maoyan.com/about/licence/2" target="_blank">网络文化经营许可证 京网文（2019）3837-369号 </a> </p>
+				<p class="friendly-links  credentials"> <a href="https://maoyan.com/rules/agreement" target="_blank">猫眼用户服务协议 </a> <span></span> <a href="https://maoyan.com/rules/rule" target="_blank">猫眼平台交易规则总则 </a> <span></span> <a href="https://maoyan.com/rules/privacy" target="_blank">隐私政策 </a> </p>
+				<p class="friendly-links  credentials"> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102003232" target="_blank">京公网安备
+						11010102003232号</a> </p>
+				<p>北京猫眼文化传媒有限公司</p>
+				<p> ©2016
+						猫眼电影 maoyan.com</p>
+				<div class="certificate"> <a href="http://sq.ccm.gov.cn:80/ccnt/sczr/service/business/emark/toDetail/350CF8BCA8416C4FE0530140A8C0957E" target="_blank"> <img src="http://p0.meituan.net/moviemachine/e54374ccf134d1f7b2c5b075a74fca525326.png"> </a> <a href="https://maoyan.com/about/licence/5" target="_blank"> <img src="http://p1.meituan.net/moviemachine/805f605d5cf1b1a02a4e3a5e29df003b8376.png"> </a> </div>
+		</div>
+
+
+ 
+  
+</div>
+
+
+<script src="/public/dm/js/jquery3.3.1.min.js"></script>
+<script src="/public/dm/js/popper.min.js"></script>
+<script src="/public/dm/js/bootstrap.min.js"></script>
+
+
+<script src="/public/dm/js/vue.js"></script>
+
+<script src="/public/dm/js/jquery.cookie.js"></script>
+<script src="/public/dm/js/holder.min.js"></script>
+<script src="/public/dm/js/main.js"></script>
+
+
+
+
+<script type="text/javascript">
+    function doNothing(){
+        window.event.returnValue=false;
+        return false;
+    }
+</script>
+
+
+
+
+
+<script src="/public/dm/js/animate.js"></script>
+
+</body>
+</html>

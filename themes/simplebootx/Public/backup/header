@@ -1,0 +1,11 @@
+<li><a class="nav-link" href="/index.php?g=portal&m=page&a=news&id=25"><i class="fa fa-tags"></i>直播公约</a></li>
+<li><a class="nav-link" href="/index.php?g=portal&m=page&a=news&id=26"><i class="fa fa-tags"></i>直播服务协议</a></li>
+<li><a class="nav-link" href="/index.php?g=portal&m=page&a=news&id=27"><i class="fa fa-tags"></i>直播承诺书</a></li>
+<if condition="!$user">
+<li><a class="nav-link" href="###" onclick="Login.login()">登录</a></li>
+<li><a class="nav-link" href="###" onclick='javascript:$(".js_reg_pop").show();'>注册</a></li>
+<else />
+<li><a class="nav-link" href="./index.php?m=Personal&a=index">{$user['user_nicename']}</a></li>
+<li><a class="nav-link" href="./{$user['id']}">我的直播</a></li>
+<li><a class="nav-link" onclick="Login.logout()">退出登录</a></li>
+</if>

@@ -1,0 +1,126 @@
+<!-- 登录 -->
+<div class="modal fade" id="loginModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<!-- 模态框头部 -->
+			<div class="modal-header">
+				<h4 class="modal-title">用户登录</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+
+			<!-- 模态框主体 -->
+			<div class="modal-body">
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							账号
+						</span>
+					</div>
+					<input id="login-username" type="text" class="form-control" placeholder="请输入用户名">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							密码
+						</span>
+					</div>
+					<input id="login-password" type="password" class="form-control" placeholder="请输入密码">
+				</div>
+
+				<div class="input-group">
+					<p>登录即表示您同意<em><a style="color: #da5537;" href="./index.php?m=page&a=agreement" target="_blank">《用户协议》</a></em></p>
+				</div>
+			</div>
+
+			<!-- 模态框底部 -->
+			<div class="modal-footer">
+				<button type="button" class="form-control btn btn-primary" onclick="Login.dologin()" style='color:#FFFF99;font-weight:800;'>
+					登录
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 注册 -->
+<div class="modal fade" id="registerModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<!-- 模态框头部 -->
+			<div class="modal-header">
+				<h4 class="modal-title">用户注册</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+
+			<!-- 模态框主体 -->
+			<div class="modal-body">
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							用户名
+						</span>
+					</div>
+					<input id="reg-username" type="text" class="form-control" placeholder="请输入用户名">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							密码
+						</span>
+					</div>
+					<input id="reg-password1" type="password" class="form-control" placeholder="请输入密码">
+				</div>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							确认密码
+						</span>
+					</div>
+					<input id="reg-password2" type="password" class="form-control" placeholder="请输入密码">
+				</div>
+              
+              
+              
+               <div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							真实姓名
+						</span>
+					</div>
+					<input id="reg-username1" type="text" class="form-control" placeholder="请输入真实姓名">
+				</div>
+              <div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							手机号
+						</span>
+					</div>
+					<input id="reg-username2" type="text" class="form-control" placeholder="请输入手机号">
+				</div>
+              <div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							身份证号
+						</span>
+					</div>
+					<input id="reg-username3" type="text" class="form-control" placeholder="请输入身份证号">
+				</div>
+              
+              
+              
+              
+
+				<div class="input-group">
+					<p>注册即表示您同意<em><a style="color: #da5537;" href="./index.php?m=page&a=agreement" target="_blank">《用户协议》</a></em></p>
+				</div>
+			</div>
+
+			<!-- 模态框底部 -->
+			<div class="modal-footer">
+				<button type="button" class="form-control btn btn-primary" onclick="Login.doreg()">
+					注册
+				</button>
+			</div>
+		</div>
+	</div>
+</div>

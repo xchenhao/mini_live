@@ -1,0 +1,52 @@
+<tc_include file="Public:header" />
+<tc_include file="Public:navbar" />
+
+<body class="home-personal">
+	<tc_include file="Home/Personal:header" />
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<div class="Leftlayout">
+					<tc_include file="Home/Personal:navigation" />
+				</div>
+			</div>
+			<div class="col-md-10">
+				<div class="shouyez">
+					<h3 class="personal_h3">
+						<i class="h3_one"></i>
+						我的账户资产
+					</h3>
+					<div>
+						<ul>
+							<li class="two">
+								<i></i>
+								<div>
+									<span><a target="_blank">赠送礼物</a>/<a target="_blank">收到礼物</a></span>
+									<span>
+										<b target="_blank" title="0个">{$getgif['tsc']}</b>个/
+										<b target="_blank" title="0个">{$getgif['tsd']}</b>个
+									</span>
+								</div>
+							</li>
+							<li class="three">
+								<a><i></i></a>
+								<div>
+									<span><a target="_blank">我的等级</a>/<a target="_blank">累计经验</a></span>
+									<span>
+										<b target="_blank">{$info['level']}</b>级/
+										<b target="_blank">{$info['consumption']}</b>点
+									</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="shouyey"></div>
+			</div>
+		</div>
+	</div>
+	<tc_include file="Public:footer" />
+	<tc_include file="Home/Personal:footer" />
+</body>
+</html>

@@ -1,0 +1,13 @@
+[ 2019-11-22T15:16:43+08:00 ] 111.198.240.165 /index.php?g=portal&m=page&a=start_live&uid=11827&pull=http://pull.nut5g.com/live/11827_1574406998872.m3u8?auth_key=1574417796-0-0-123e1bd75dca863e9e4c73d958971e89&time=20191122151645
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000159s ]
+

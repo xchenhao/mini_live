@@ -1,0 +1,66 @@
+
+<!--footer-->
+<footer id="footer">
+
+	<div class="footer2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 panel">
+					<div class="panel-body">
+						<p class="simplenav">
+							<a href="/">首页</a> |
+							<a href="/admin/">后台监管</a> 
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-10 panel">
+					<div class="panel-body">
+						<p class="text-right">
+							地址：{$site_addr} 电话：{$site_telephone} 邮箱：{$site_email} 备案：{$site_icp}
+							版权：Copyright &copy; 2016.{$site_name} All rights reserved. {$copyright}
+						</p>
+					</div>
+				</div>
+
+			</div>
+			<!-- /row of panels -->
+		</div>
+	</div>
+</footer>
+
+
+<script src="/public/assets/js/modernizr-latest.js"></script>
+<script type='text/javascript' src='/public/assets/js/jquery.min.js'></script>
+<script type='text/javascript' src='/public/assets/js/fancybox/jquery.fancybox.pack.js'></script>
+
+<script type='text/javascript' src='/public/assets/js/jquery.mobile.customized.min.js'></script>
+<script type='text/javascript' src='/public/assets/js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='/public/assets/js/camera.min.js'></script>
+<script src="/public/assets/js/bootstrap.min.js"></script>
+<script src="/public/assets/js/custom.js"></script>
+<script>
+	jQuery(function() {
+		jQuery('#camera_wrap_4').camera({
+			height: '600',
+			loader: 'bar',
+			pagination: false,
+			thumbnails: false,
+			hover: false,
+			opacityOnGrid: false,
+			imagePath: 'assets/images/'
+		});
+
+	});
+</script>
+
+<script type="text/javascript">
+	window._DATA = window._DATA || {};
+	window._DATA.user = {
+		$userinfo
+	};
+</script>
+<script type="text/javascript" src="__PUBLIC__/home/js/login.js"></script>
+<script type="text/javascript" src="__PUBLIC__/home/js/layer.js"></script>
+</body>
+</html>

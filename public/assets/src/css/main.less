@@ -1,0 +1,279 @@
+@import "define";
+@import "common";
+@import "navbar";
+@import "footer";
+@import "show";
+
+//
+
+.sidebar-nav{
+	position: fixed;
+	max-width: 200px;
+	top: 100px;
+	right: 30px;
+	z-index: 1033;
+	a{
+		color: #000000;
+	}
+}
+//列表
+.m-list{
+	.m-item{
+		cursor: pointer;
+		.item{
+			border: 1px solid #eee;
+			border-radius: 5px;
+			box-shadow: 5px 5px 5px #eee;
+			img{
+				width: 100%;
+			}
+			.username{
+				border: 3px solid #FFCC33;
+				margin-bottom: 0px;
+				img{
+					width: 36px;
+					height: 36px;
+					border-radius: 18px;
+				}
+				padding: 10px;
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+body{
+	background: url(/public/images/body_bg.png);
+	background-size: 100% auto;
+	background-repeat: repeat-y;
+}
+
+//首页
+body.home-index{
+	overflow-x: hidden;
+	//
+	.navbar.bg-light{
+		background: none !important;
+		border: 0;
+		box-shadow: none;
+		z-index: 1031;
+		.nav-link{
+			color: #EEEEEE;
+			text-shadow: 3px 3px 3px #000;
+		}
+		.dropdown-item{
+			color: #000000;
+		}
+		>.container-fluid{
+			border-bottom: 1px solid #CCCCCC;
+		}
+	}
+	//
+	.jumbotron{
+		position: relative;
+		margin-top: -100px;
+		padding: 0px;
+		min-height: 1024px;
+		text-align: center;
+		overflow: hidden;
+		//background: url(/public/images/home_index_bg.jpg) center center no-repeat;
+		//background-size: cover;
+		z-index: 1000;
+		*{
+			color: rgba(255,255,255,.8);
+			text-shadow: 5px 5px 5px #000;
+		}
+		
+		div.title{
+			position: relative;
+			margin-top: 120px;
+			font-size: 500%;
+			z-index: 1000;
+			img{
+				position: absolute;
+			}
+			img:first-child{
+				top: -50%;
+				left: -1%;
+			}
+			img:last-child{
+				bottom: -20%;
+				right: 5%;
+			}
+		}
+		p{
+			margin-top: 50px;
+			font-size: 200%;
+			letter-spacing: 15px;
+		}
+		video{
+			min-width: 100%;
+			min-height: 1200px;
+			z-index: 0;
+		}
+		.tips{
+			position: absolute;
+			top: 20%;
+			left: 15%;
+			right: 15%;
+		}
+	}
+
+	//
+	.m-list{
+		.item{
+			position: relative;
+			border: 0px;
+			box-shadow: none;
+			z-index: 1030;
+		}
+		.m-list-item{
+			margin-bottom: 60px;
+		}
+	}
+	//
+	.module-title{
+		text-align: center;
+		margin: 30px auto 60px auto;
+		span{
+			
+		}
+		p{
+			font-size: 16px;
+			color: #CCCCCC;
+		}
+	}
+	.description{
+		p{
+			padding: 0px 15px;
+		}
+	}
+}
+
+//直播 & 回放
+body.home-live,
+body.home-record,
+body.home-record-play{
+	//
+	.content{
+		margin-top: 30px;
+		margin-bottom:30px;
+		min-height: 600px;
+	}
+	//标题
+	.title{
+		h2{
+			font-size:18px;
+			border-left: 5px solid #FFCC33;
+			padding-left: 10px;
+			margin-bottom: 30px;
+			span{
+				font-weight: bold;
+			}
+			p{
+				padding-top: 10px;
+				font-size: 14px;
+				color: #C8CCCF;
+			}
+		}
+	}
+	//
+	.record-live::before,
+	.none-live::before,
+	.live::before {
+		position: absolute;
+		display: block;
+		width: 50px;
+		height: 20px;
+		color: #fff;
+		text-align: center;
+		line-height: 20px;
+		right: 20px;
+		top: 5px;
+		z-index: 3;
+		font-size: 12px;
+		background: url("/public/home/images/live.png") no-repeat center;
+	
+	}
+	
+	.record-live::before {
+		content: '回放';
+	}
+	
+	.live::before {
+		content: '直播中';
+	}
+	
+	.none-live::before {
+		content: '未开播';
+	}
+	
+}
+//回放播放页面
+body.home-record-play{
+	
+	.paly-video-box{
+		
+		.author{
+			margin-bottom: 15px;
+			img{
+				width: 36px;
+				height: 36px;
+				border-radius: 18px;
+			}
+			
+			h5{
+				display: inline-block;
+				font-size: 14px;
+			}
+		}
+		video{
+			width: 100%;
+		}
+	}
+}
+
+//新闻
+body.body-news{
+	.content{
+		margin-top: 30px;
+		
+		.post-title{
+			font-size: 18px;
+			text-align: center;
+			font-weight: bold;
+			margin-bottom: 30px;
+		}
+		.post-content{
+			font-size: 16px;
+		}
+		
+	}
+}
+
+//个人中心
+body.home-personal{
+	.shouyez{
+		width: auto;
+	}
+	
+}
+//登录 & 注册
+#loginModal,
+#registerModal{
+	*{
+		font-size: 14px;
+	}
+	.modal-title{
+		margin-left: auto;
+	}
+	p{
+		margin: 0px;
+	}
+	.input-group{
+		.input-group-text{
+			min-width: 80px;
+		}
+	}
+}
+

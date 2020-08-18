@@ -1,0 +1,386 @@
+<!doctype html>
+
+<html lang="zh">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="请输入站点关键字">
+  <meta name="description" content="请输入站点信息">
+  
+  
+  <link rel="stylesheet" href="/public/dm/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/public/dm/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/public/dm/css/animate.css">
+  <link rel="stylesheet" href="/public/dm/css/hover-min.css">
+  
+  <link rel="stylesheet" href="/public/dm/css/main.css">
+  <link rel="icon" href="/public/dm/image/favicon.ico">
+  <title>发射 - 北京猫眼文化传媒有限公司</title>
+  
+  
+</head>
+ <!--oncontextmenu="doNothing()"-->
+<body oncontextmenu="doNothing()" class="">
+<div class="wrapper">
+  
+  <div class="header"><div class="header">
+    <div class="l1">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h5>欢迎来到 <span>北京猫眼文化传媒有限公司</span> 网站！</h5>
+                </div>
+                <div class="col-6 text-right">
+                    <h5>
+                      <if condition="!empty($datas['name'])">
+                      欢迎 {$datas['name']} 来到猫眼动漫   
+                      <else />
+                        <a href="{:U('home/dm/login')}">【请登录】</a>
+                      </if>
+                      |   服务热线：<span>10105335</span></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="l2">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="background-color: #FFFFFF!important;">
+            <div class="container">
+                <a class="navbar-brand" href="javascript:">
+                    <img src="/public/dm/picture/logo2.png" class="img-fluid">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/index')}">首页</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/category')}">黏黏表情包</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/category2')}">牙呀表情包</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/login')}">登录</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-grow" href="{:U('home/Dm/register')}">注册</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div></div>
+  
+  <div class="content">
+    
+    <div id="message-app"></div>
+    
+
+    
+<div class="container t-detail">
+  
+  	<if condition="$data['name'] neq '' ">
+      
+      
+      
+  			 <div class="row">
+        <div class="col-md-6">
+            <div class="img">
+                <img src="/public/dm/img{$data['ml']}/{$data['name']}.gif" class="img-fluid" id='srcs'>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="info">
+                <div class="img-info">
+                    <table class="table">
+                        <tr>
+                            <td>名称</td>
+                            <td id="names">{$data['name']}</td>
+                        </tr>
+                        <tr>
+                            <td>类型</td>
+                            <td id="types"><if condition="$data['types'] eq 1">付费 <else />免费</if></td>
+                        </tr>
+                        <tr>
+                            <td>金额</td>
+                            <td id="je"><if condition="$data['types'] eq 1">2 ￥<else />0 ￥</if></td>
+                        </tr>
+                    </table>
+                </div>
+                <if condition="$data['types'] eq 1">
+                  
+                  
+                  <a onclick="ts()" class="btn btn-primary download-link" id="typess" download="发射.gif">付费下载</a>
+                 
+                  
+                  <else />
+                 <a href="/public/dm/img{$data['ml']}/{$data['name']}.gif" class="btn btn-primary download-link" id="typess" download="{$data['name']}.gif">免费下载</a>
+                 </if>
+            </div>
+        </div>
+    </div>
+      
+      <script>
+      		function ts(){
+            	alert('因暂未获取相关部门许可，支付功能暂未开放');
+            }
+      
+      </script>
+      
+  
+  	<else />
+  
+  
+  
+    <div class="row">
+        <div class="col-md-6">
+            <div class="img">
+                <img src="/public/dm/picture/发射.gif" class="img-fluid" id='srcs'>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="info">
+                <div class="img-info">
+                    <table class="table">
+                        <tr>
+                            <td>名称</td>
+                            <td id="names">发射</td>
+                        </tr>
+                        <tr>
+                            <td>类型</td>
+                            <td id="types">付费</td>
+                        </tr>
+                        <tr>
+                            <td>金额</td>
+                            <td id="je">2 ￥</td>
+                        </tr>
+                    </table>
+                </div>
+                <!--<p>因暂未获取相关部门许可，此功能暂未开放</p>-->
+                <a href="/public/dm/picture/发射.gif" class="btn btn-primary download-link" id="typess" download="发射.gif">付费下载</a>
+            </div>
+        </div>
+    </div>
+  
+  </if>
+  
+  
+  
+  
+  
+</div>
+<div class="container">
+    <hr>
+</div>
+
+
+<script type="text/javascript">
+
+</script>
+
+
+<div class="container">
+    <h5 style="padding:15px 0px;">更多图片>></h5>
+    <div class="row t-list">
+
+
+
+
+        
+        <div class="col-3" >
+          <a href="{:U('home/dm/detail',array('dm'=>'wow','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/wow.gif">
+                <h4>wow</h4>
+            </div>
+            </a>
+        </div>
+
+
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'暗中观察','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/暗中观察.gif">
+                <h4>暗中观察</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'白眼','types'=>1,'ml'=>1))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img1/白眼.gif">
+                <h4>白眼</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'蹦跶','types'=>2,'ml'=>1))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img1/蹦跶.gif">
+                <h4>蹦跶</h4>
+            </div>
+            </a>
+        </div>
+      
+      <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'666','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/666.gif">
+                <h4>666</h4>
+            </div>
+        </a>
+        </div>
+
+
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'biubiubiu','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/biubiubiu.gif">
+                <h4>biubiubiu</h4>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'no','types'=>1,'ml'=>2))}">
+            <div class="t-item hvr-grow t-price">
+                <img src="/public/dm/img2/no.gif">
+                <h4>no</h4>
+            </div>
+        </a>
+        </div>
+        
+        <div class="col-3" >
+            <a href="{:U('home/dm/detail',array('dm'=>'ok','types'=>2,'ml'=>2))}">
+            <div class="t-item hvr-grow">
+                <img src="/public/dm/img2/ok.gif">
+                <h4>ok</h4>
+            </div>
+            </a>
+        </div>
+      
+      
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+</div>
+
+  </div>
+  
+  <div class="footer">
+    <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-left">
+                <div>
+                    <p>电话：010-57296952</p>
+                    <p>邮箱：dwm@dawenming.com</p>
+                    <p>地址：北京市大兴区新源大街27号院4号楼4层1单元420</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 text-right">
+                <img src="/public/dm/picture/logo2.png" class="img-fluid" style="max-height: 120px">
+            </div>
+        </div>
+        <div class="copyright text-center">
+   		<!-- <p>Copyright © 2019 北京猫眼文化传媒有限公司 All Rights Reserved. | 京ICP备16046523号-1</p>-->
+    		<p>Copyright © 2019 北京猫眼文化传媒有限公司 All Rights Reserved. | 京ICP备16046523号-1 京网文[2019]5248-598号</p>
+        </div>
+    </div>
+</div>
+
+  </div>
+  
+</div>
+
+
+<script src="/public/dm/js/jquery3.3.1.min.js"></script>
+<script src="/public/dm/js/popper.min.js"></script>
+<script src="/public/dm/js/bootstrap.min.js"></script>
+
+
+<script src="/public/dm/js/vue.js"></script>
+
+<script src="/public/dm/js/jquery.cookie.js"></script>
+<script src="/public/dm/js/holder.min.js"></script>
+<script src="/public/dm/js/main.js"></script>
+
+
+
+
+<script type="text/javascript">
+    function doNothing(){
+        window.event.returnValue=false;
+        return false;
+    }
+</script>
+
+
+
+
+</body>
+</html>

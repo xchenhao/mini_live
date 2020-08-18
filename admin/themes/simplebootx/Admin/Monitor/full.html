@@ -1,0 +1,113 @@
+<div class="dialog-tc">
+
+	<span onclick="closePorp()" class="closes"><span>
+
+</div>
+
+<script src="/public/assets/hls.js/hls.js"></script>
+<video id="video"></video>
+<script>
+	function video_position(){
+		setTimeout(function(){
+			$("#video").css("width", $("#buyvip").width());
+			var _height_ = 0;
+			try{
+				_height_ = ($("#LF-area-video").height() - $("#buyvip").height()) / 2;
+			}catch(e){
+				//TODO handle the exception
+			}
+			
+			if(_height_ > 0){
+				$("#video").css("margin-top", _height_);
+			}
+		}, 1 * 1000);
+		
+	}
+	function video_play() {
+		setTimeout(function() {
+			video.play();
+		}, 3 * 1000);
+	}
+	var video = document.getElementById('video');
+	video.oncontextmenu = function(){
+		return false;
+	}
+	if (Hls.isSupported()) {
+		var video = document.getElementById('video');
+
+		video.addEventListener("playing", function() {
+			console.log('video is playing');
+		});
+		video.addEventListener("seeking", function() {
+			console.log('video is seeking');
+		});
+		video.addEventListener("pause", function() {
+			console.log('video is pause');
+		});
+
+		//实例化Hls
+		var config = {
+			debug: false
+		}
+		console.log('hls:', 'supported');
+		var hls = new Hls(config);
+		//bind
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MEDIA_ATTACHED, function() {
+			console.log('hls events:', 'MEDIA_ATTACHED, ');
+			//加载资源
+			hls.loadSource('/{$hls}');
+			console.log('url:', hls.url);
+			hls.on(Hls.Events.MANIFEST_PARSED, function() {
+				//加载资源完毕
+				console.log('hls events:', 'MANIFEST_PARSED, ');
+				//开始播放
+				console.log('hls events:', 'start play...');
+				video_position();
+				video.play();
+				$("#loading").hide();
+				video_play();
+			});
+		});
+
+		//error
+		hls.on(Hls.Events.ERROR, function(event, data) {
+			var errorType = data.type;
+			var errorDetails = data.details;
+			var errorFatal = data.fatal;
+			console.log(errorType, errorDetails, errorFatal);
+			if (errorFatal) {
+				switch (errorFatal) {
+					case Hls.ErrorTypes.NETWORK_ERROR:
+						// try to recover network error
+						console.log("fatal network error encountered, try to recover");
+						$("#loading").text('拼命加载中...');
+						$("#loading").show();
+						hls.startLoad();
+						break;
+					case Hls.ErrorTypes.MEDIA_ERROR:
+						console.log("fatal media error encountered, try to recover");
+						hls.recoverMediaError();
+						break;
+					default:
+						// cannot recover
+						console.log("cannot recover, try to destroy");
+						$("#loading").text('加载失败, 请刷新重试...');
+						$("#loading").show();
+						hls.destroy();
+						break;
+				}
+			}
+		});
+	} else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+		console.log('hls:', 'canPlayType');
+		video.src = '/{$hls}';
+		video.addEventListener('loadedmetadata', function() {
+			console.log('hls:', 'add event listener loadedmetadata, ', 'start play...');
+			$("#loading").hide();
+			video_position();
+			video.play();
+			video_play();
+		});
+	}
+</script>

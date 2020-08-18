@@ -1,0 +1,372 @@
+[ 2020-07-15T10:13:34+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Setting&a=clearcache&menuid=131
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000765s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.026212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026503s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2020-07-15T10:13:40+08:00 ] 127.0.0.1 /index.php?g=admin&m=Monitor&a=stopRoom&callback=jQuery18003914521401535611_1594777519634&uid=11814&_=1594779219448
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:1.023785s ]
+INFO: [ app_init ] --END-- [ RunTime:1.024090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002773s ]
+
+[ 2020-07-15T10:13:43+08:00 ] 127.0.0.1 /index.php?g=admin&m=Monitor&a=stopRoom&callback=jQuery18003914521401535611_1594777519634&uid=11824&_=1594779222830
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000888s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+
+[ 2020-07-15T10:16:39+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Liveing&a=index&menuid=274
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: start_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\LiveingController.class.php 第 13 行.
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\LiveingController.class.php 第 18 行.
+NOTIC: [8] Undefined index: start_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\LiveingController.class.php 第 23 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\LiveingController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: start_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\b1606868a722e76b1b54b095f8af0dae.php 第 61 行.
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\b1606868a722e76b1b54b095f8af0dae.php 第 62 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\b1606868a722e76b1b54b095f8af0dae.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2020-07-15T10:16:41+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Monitor&a=index&menuid=216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000758s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2020-07-15T10:16:42+08:00 ] 127.0.0.1 /index.php?g=Admin&m=System&a=index&menuid=266
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001927s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: auth E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\24753a4b5817e569d6747f37dfed344b.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2020-07-15T10:16:44+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Live&a=index&menuid=172
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000897s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+NOTIC: [8] Undefined index: start_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\LiveController.class.php 第 13 行.
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\LiveController.class.php 第 18 行.
+NOTIC: [8] Undefined index: start_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\LiveController.class.php 第 23 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\LiveController.class.php 第 30 行.
+NOTIC: [8] Undefined variable: pList E:\phpstudy2018\PHPTutorial\WWW\tyxk\simplewind\Lib\Util\Page.class.php 第 226 行.
+NOTIC: [8] Undefined variable: pListStart E:\phpstudy2018\PHPTutorial\WWW\tyxk\simplewind\Lib\Util\Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pListEnd E:\phpstudy2018\PHPTutorial\WWW\tyxk\simplewind\Lib\Util\Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pFirst E:\phpstudy2018\PHPTutorial\WWW\tyxk\simplewind\Lib\Util\Page.class.php 第 335 行.
+NOTIC: [8] Undefined variable: pPrev E:\phpstudy2018\PHPTutorial\WWW\tyxk\simplewind\Lib\Util\Page.class.php 第 335 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined index: start_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 60 行.
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 61 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 63 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+NOTIC: [8] Undefined index: islive E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\5117155f489eff60b0393747b114c071.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2020-07-15T10:16:45+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Report&a=index&menuid=244
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Undefined index: status E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\ReportController.class.php 第 11 行.
+NOTIC: [8] Undefined index: start_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\ReportController.class.php 第 15 行.
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\ReportController.class.php 第 20 行.
+NOTIC: [8] Undefined index: start_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\ReportController.class.php 第 25 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\ReportController.class.php 第 32 行.
+NOTIC: [8] Undefined variable: map E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\ReportController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: map E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Admin\Controller\ReportController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: status E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\6b09b9964c9971c77f9c2aaaaafbcd29.php 第 62 行.
+NOTIC: [8] Undefined index: status E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\6b09b9964c9971c77f9c2aaaaafbcd29.php 第 63 行.
+NOTIC: [8] Undefined index: start_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\6b09b9964c9971c77f9c2aaaaafbcd29.php 第 66 行.
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\6b09b9964c9971c77f9c2aaaaafbcd29.php 第 67 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Admin\6b09b9964c9971c77f9c2aaaaafbcd29.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2020-07-15T10:16:49+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Monitor&a=index&menuid=216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001382s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000250s ]
+
+[ 2020-07-15T10:16:55+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Config&a=index&menuid=173
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000457s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000531s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2020-07-15T10:17:01+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Slide&a=index&menuid=54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000790s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2020-07-15T10:17:09+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Slidecat&a=index&menuid=62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000789s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2020-07-15T10:17:10+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Ads&a=index&menuid=234
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000744s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2020-07-15T10:17:13+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Storage&a=index&menuid=156
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000869s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2020-07-15T10:17:16+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Menu&a=index&menuid=100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001239s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.010812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011133s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+

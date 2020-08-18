@@ -1,0 +1,61 @@
+<admintpl file="header" />
+</head>
+<body>
+	<div class="wrap js-check-wrap">
+		<ul class="nav nav-tabs">
+			
+			<if condition="$_SESSION['ADMIN_status'] eq '2'"><li class="active"><a href="{:U('user/channel_total')}">我的统计</a></li></if>
+		</ul>
+		
+		<div>
+			<ol> 
+				<li style="height: 30px;line-height: 30px;">我的总收益：<b>{$incomeInfo['total_income']}</b> 元</li>
+				<li style="height: 30px;line-height: 30px;">已结算收益：<b>{$incomeInfo['settled']} </b>元</li>
+				<li style="height: 30px;line-height: 30px;">未结算收益：<b>{$incomeInfo['unsettled']} </b>元</li>
+				<li style="height: 30px;line-height: 30px;">上次结算收益日期：<b>{$incomeInfo['last_settle_time']|date="Y-m-d H:i:s",###}</b></li>
+			</ol>
+			
+		</div>
+
+		<div><a class="btn" href="{:U('user/channel_total_settle')}">结算明细</a><br><br></div>
+		
+		<table class="table table-hover table-bordered" style="width: 80%;margin-left: 20px;">
+			<thead>
+				<tr>
+					
+					<th>注册量</th>
+					<th>充值金额</th>
+					<th>收益</th>
+					
+				</tr>
+			</thead>
+			<tbody>
+				
+				
+				<tr>
+					
+					<td>
+						<a href='{:U("user/channel_total_regist",array("date"=>"today"))}'>今日【{$todayRegNum}】</a>,
+						<a href='{:U("user/channel_total_regist",array("date"=>"yesterday"))}'>昨日【{$yesterdayRegNum}】</a>,
+						<a href='{:U("user/channel_total_regist",array("date"=>"localmonth"))}'>本月【{$localMonthRegNum}】</a>
+					</td>
+					<td>
+						<a href='{:U("user/channel_total_charge",array("date"=>"today"))}'>今日【{$todayMoney}】</a>,
+						<a href='{:U("user/channel_total_charge",array("date"=>"yesterday"))}'>昨日【{$yesterdayMoney}】</a>,
+						<a href='{:U("user/channel_total_charge",array("date"=>"localmonth"))}'>本月【{$localmonthMoney}】</a>
+					</td>
+					<td>
+						<a href='{:U("user/channel_total_income",array("date"=>"today"))}'>今日【{$todayInCome}】</a>,
+						<a href='{:U("user/channel_total_income",array("date"=>"yesterday"))}'>昨日【{$yesterdayInCome}】</a>,
+						<a href='{:U("user/channel_total_income",array("date"=>"localmonth"))}'>本月【{$localmonthInCome}】</a>
+					</td>
+					
+				</tr>
+				
+			</tbody>
+		</table>
+		<div class="pagination">{$page}</div>
+	</div>
+	<script src="__PUBLIC__/js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+@import "define";
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	li{
+		list-style: none;
+	}
+}
+
+//
+.record-live::before,
+.none-live::before,
+.live::before {
+	position: absolute;
+	display: block;
+	width: 95px;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	right: 20px;
+	top: 5px;
+	z-index: 1033;
+	font-size: 20px;
+	line-height: 40px;
+	background: url("/public/images/live.png") no-repeat center;
+
+}
+	
+.record-live::before {
+	content: '回放';
+}
+	
+.live::before {
+	content: '直播中';
+}
+	
+.none-live::before {
+	content: '未开播';
+}

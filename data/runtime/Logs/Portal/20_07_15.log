@@ -1,0 +1,88 @@
+[ 2020-07-15T10:13:48+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11955
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 37 行.
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2020-07-15T10:14:11+08:00 ] 127.0.0.1 /index.php?g=portal&m=page&a=record&id=11955
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000810s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Common\Common\function.php 第 1961 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined index: game_switch E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Common\Common\function.php 第 1912 行.
+NOTIC: [8] Undefined variable: level_a E:\phpstudy2018\PHPTutorial\WWW\tyxk\application\Common\Common\function.php 第 1984 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 37 行.
+NOTIC: [8] Undefined variable: user E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Portal\c29f16e7f301980deb585a441f8730f0.php 第 183 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2020-07-15T10:17:21+08:00 ] 127.0.0.1 /index.php?g=Portal&m=AdminPost&a=index&menuid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000808s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: D方法实例化没找到模型类Portal\Model\PostsModel
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: end_time E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 65 行.
+NOTIC: [8] Undefined index: keyword E:\phpstudy2018\PHPTutorial\WWW\tyxk\data\runtime\Cache\Portal\9e8b2aead7c344b4e8f09dcbf8c108d1.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
