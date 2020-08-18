@@ -214,7 +214,8 @@ color: #fff;
 
 .list-group-item a {
 	background: none !important;
-	padding: .95rem 0.45rem !important;
+	padding: .95rem 0.12rem !important;
+	/*padding: 0.1rem 0.45rem !important;*/
 	color: #333 !important;
 	font-size: 14px !important;
 	text-decoration: none !important;

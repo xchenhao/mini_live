@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-md">
-		<div class="container-fluid" style="width: 1200px; margin: 0 auto;">
+		<div class="container-fluid" style="width: 1200px; margin: 0 auto; overflow: initial">
 				
 				<div class="logo"><a href="/"><img src="/public/images/logo.png" width="170" alt="" /></a></div>
 				<ul class="list-group sidebar-nav">
-						<li class="list-group-item"> <a href="/" class="on">首页 </a> </li>
+						<li class="list-group-item go-to-homepage"> <a href="/" class="on">首页 </a> </li>
 						<li class="list-group-item"> <a href="/index.php?g=home&m=index&a=live"> 热门直播 </a> </li>
 						<li class="list-group-item"> <a href="/index.php?g=home&m=index&a=record"> 精彩回放 </a> </li>
 						<li class="list-group-item"> <a href="/index.php?g=portal&m=page&a=news&id=25"> 直播公约 </a> </li>
@@ -24,3 +24,14 @@
 		<div class="img01"><img src="/public/images/mainimg.jpg" width="100%" alt="" /></div>
 </nav>
 <tc_include file="Public:modal" />
+
+<style>
+	.list-group-item:first-child {
+		border-top-left-radius: 10px !important;
+		border-top-right-radius: 10px !important;
+	}
+	.list-group-item:last-child {
+		border-bottom-left-radius: 10px !important;
+		border-bottom-right-radius: 10px !important;
+	}
+</style>
