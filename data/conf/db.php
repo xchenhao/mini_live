@@ -13,9 +13,9 @@ return array(
     'DB_PREFIX' => 'cmf_',
 						
 	/* redis */
-	'REDIS_HOST' => "",
-	'REDIS_AUTH' => "",
-	'REDIS_PORT' => "",
+	'REDIS_HOST' => '',
+	'REDIS_AUTH' => '',
+	'REDIS_PORT' => '',
     //密钥
     "AUTHCODE" => '',
     //cookies

@@ -13,10 +13,10 @@
   'FILE_UPLOAD_TYPE' => 'Qiniu',
   'UPLOAD_TYPE_CONFIG' => 
   array (
-    'accessKey' => 'hPXhnmRMNI06D1uKJyzVp0_Nf1-h6WqNz1lco0MC',
-    'secretKey' => 'bvHlZtoksv0O9zDxYT0EATopVwvHVcN7l4mw-Q1q',
-    'domain' => 'oyocbt8fu.bkt.clouddn.com',
-    'bucket' => 'phonelive',
+    'accessKey' => '',
+    'secretKey' => '',
+    'domain' => '',
+    'bucket' => '',
   ),
   'SP_MEMBER_EMAIL_ACTIVE' => 0,
   'SP_MAIL_ADDRESS' => 'admin@qq.com',
