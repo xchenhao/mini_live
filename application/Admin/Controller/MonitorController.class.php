@@ -63,17 +63,17 @@ class MonitorController extends AdminbaseController {
 			$liveinfo['islive']=0;
 			$liveinfo['endtime']=time();
 			
-			$redis = connectionRedis();
-			$nums=$redis->hlen('userlist_'.$liveinfo['stream']);
+//			$redis = connectionRedis();
+//			$nums=$redis->hlen('userlist_'.$liveinfo['stream']);
 
-			$redis->hDel("livelist",$uid);
-			$redis->delete($uid.'_zombie');
-			$redis->delete($uid.'_zombie_uid');
-			$redis->delete('attention_'.$uid);
-			$redis->delete('userlist_'.$liveinfo['stream']);
-			$redis -> close();
+//			$redis->hDel("livelist",$uid);
+//			$redis->delete($uid.'_zombie');
+//			$redis->delete($uid.'_zombie_uid');
+//			$redis->delete('attention_'.$uid);
+//			$redis->delete('userlist_'.$liveinfo['stream']);
+//			$redis -> close();
 			
-			$liveinfo['nums']=$nums;
+			$liveinfo['nums']=0;
 			
 			M("users_liverecord")->add($liveinfo);
 		}

@@ -13,11 +13,11 @@ return array(
     'DB_PREFIX' => 'cmf_',
 						
 	/* redis */
-	'REDIS_HOST' => "127.0.0.1",
-	'REDIS_AUTH' => "123456",
-	'REDIS_PORT' => "6379",
+	'REDIS_HOST' => "",
+	'REDIS_AUTH' => "",
+	'REDIS_PORT' => "",
     //密钥
-    "AUTHCODE" => 'rCt52pF2cnnKNB3Hkp',
+    "AUTHCODE" => '',
     //cookies
     "COOKIE_PREFIX" => 'AJ1sOD_',
 );

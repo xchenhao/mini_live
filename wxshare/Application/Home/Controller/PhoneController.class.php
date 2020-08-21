@@ -165,11 +165,12 @@ class PhoneController extends Controller {
 				$this->assign("config",$config);		
 				
 
-				$redis = connectionRedis();
+//				$redis = connectionRedis();
 				
-				$userArr  = $redis->hVals((int)$_GET['roomnum'] );
-				
-				 $redis -> close();	
+//				$userArr  = $redis->hVals((int)$_GET['roomnum'] );
+				$userArr  = [];
+
+//				 $redis -> close();
 				
 				$userList = '['.implode(",",$userArr).']';
 				

@@ -3,14 +3,15 @@
 /* 前台 */
 	/* redis链接 */
 	function connectionRedis(){
-		$REDIS_HOST= C('REDIS_HOST');
-		$REDIS_AUTH= C('REDIS_AUTH');
-		$REDIS_PORT= C('REDIS_PORT');
-		$redis = new \Redis();
-		$redis -> pconnect($REDIS_HOST,$REDIS_PORT);
-		$redis -> auth($REDIS_AUTH);
-
-		return $redis;
+	    return;
+//		$REDIS_HOST= C('REDIS_HOST');
+//		$REDIS_AUTH= C('REDIS_AUTH');
+//		$REDIS_PORT= C('REDIS_PORT');
+//		$redis = new \Redis();
+//		$redis -> pconnect($REDIS_HOST,$REDIS_PORT);
+//		$redis -> auth($REDIS_AUTH);
+//
+//		return $redis;
 	}
 	
 	/* 设置缓存 */

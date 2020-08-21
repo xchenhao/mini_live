@@ -65,8 +65,9 @@ class ShowController extends HomebaseController {
 		if($uid>0)
 		{
 			/*是否踢出房间*/
-			$redis = connectionRedis();
-			$iskick=$redis  -> hGet($anchorinfo['id'].'kick',$uid);
+//			$redis = connectionRedis();
+//			$iskick=$redis  -> hGet($anchorinfo['id'].'kick',$uid);
+			$iskick=0;
 			$nowtime=time();
 			if($iskick>$nowtime)
 			{
@@ -75,7 +76,7 @@ class ShowController extends HomebaseController {
 				$this->error('您已被踢出房间，剩余'.$surplus.'秒');
 			}else
 			{
-				$redis  -> hdel($anchorinfo['id'].'kick',$uid);
+//				$redis  -> hdel($anchorinfo['id'].'kick',$uid);
 			}
 			/*身份判断*/
 			$getisadmin=getIsAdmin($uid,$anchorinfo['id']);
@@ -95,11 +96,11 @@ class ShowController extends HomebaseController {
 			/*进入房间设置redis*/
 			$userinfo=$User->where("id=".$uid)->field("id,issuper")->find();
 			if($userinfo['issuper']==1){
-				$redis  -> hset('super',$userinfo['id'],'1');
+//				$redis  -> hset('super',$userinfo['id'],'1');
 			}else{
-				$redis  -> hDel('super',$userinfo['id']);
+//				$redis  -> hDel('super',$userinfo['id']);
 			}
-			$redis -> close();
+//			$redis -> close();
 		}
 		else
 		{
@@ -283,9 +284,9 @@ class ShowController extends HomebaseController {
 				$info['stream']=$showid."_".$showid;
 			}
 		}
-		$redis = connectionRedis();
-		$redis  -> set($token,json_encode($info));
-		$redis -> close();	
+//		$redis = connectionRedis();
+//		$redis  -> set($token,json_encode($info));
+//		$redis -> close();
 		/*判断改房间是否开启僵尸粉*/
 		$iszombie=isZombie($showid);
 		$data=array(
@@ -370,9 +371,9 @@ class ShowController extends HomebaseController {
 			{
 				$result['city']="好像在火星";
 				$result['sign'] = md5($uid.'_'.$uid);
-				$redis = connectionRedis();
-				$redis  -> set($token,json_encode($result));
-				$redis -> close();
+//				$redis = connectionRedis();
+//				$redis  -> set($token,json_encode($result));
+//				$redis -> close();
 				echo '{"state":"0","data":"'.$type.'","msg":""}';
 			}
 			else
@@ -626,15 +627,18 @@ class ShowController extends HomebaseController {
 			$stream=$showid."_".$showid;
 		}
 		
-		$redis = connectionRedis();
-		$list=$redis -> hVals('userlist_'.$stream);
-		$nums=$redis->hlen('userlist_'.$stream);
+//		$redis = connectionRedis();
+//		$list=$redis -> hVals('userlist_'.$stream);
+		$list= [];
+//		$nums=$redis->hlen('userlist_'.$stream);
+		$nums=0;
+		$n = 0;
 		foreach($list as $v)
 		{
 			$lists[]=json_decode($v,true);
-			$n++;
+//			$n++;
 		}
-		$redis -> close();
+//		$redis -> close();
 		$data['list']=$lists;
 		$data['nums']=$nums;
 		echo  json_encode($data);	

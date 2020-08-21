@@ -1781,6 +1781,7 @@ function sp_delete_physics_img($imglist){
 
 	/* redis链接 */
 	function connectionRedis(){
+	    return;
 		$REDIS_HOST= C('REDIS_HOST');
 		$REDIS_AUTH= C('REDIS_AUTH');
 		$REDIS_PORT= C('REDIS_PORT');
@@ -1793,6 +1794,7 @@ function sp_delete_physics_img($imglist){
 	
 	/* 设置缓存 */
 	function setcache($key,$info){
+	    return;
 		$config=getConfigPri();
 		if($config['cache_switch']!=1){
 			return 1;
@@ -1806,7 +1808,7 @@ function sp_delete_physics_img($imglist){
 	}	
 	/* 设置缓存 可自定义时间*/
 	function setcaches($key,$info,$time){
-
+	    return;
 		$redis=connectionRedis();
 		$redis->set($key,json_encode($info));
 		$redis->setTimeout($key, $time); 
@@ -1819,6 +1821,7 @@ function sp_delete_physics_img($imglist){
 		$config=getConfigPri();
 
 		$redis=connectionRedis();
+		return;
 		$isexist=$redis->Get($key);
 		if($config['cache_switch']!=1){
 			$isexist=false;
@@ -1829,6 +1832,7 @@ function sp_delete_physics_img($imglist){
 	}		
 	/* 获取缓存 不判断后台设置 */
 	function getcaches($key){
+	    return;
 		$redis=connectionRedis();
 		$isexist=$redis->Get($key);
 		$redis->close();
@@ -1837,6 +1841,7 @@ function sp_delete_physics_img($imglist){
 	}
 	/* 删除缓存 */
 	function delcache($key){
+	    return;
 		$redis=connectionRedis();
 		$isexist=$redis->delete($key);
 		$redis->close();

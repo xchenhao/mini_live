@@ -159,13 +159,13 @@ class IndexadminController extends AdminbaseController {
     		$rst = M("Users")->where(array("id"=>$id,"user_type"=>2))->setField('user_status','0');
     		if ($rst!==false) {
 				$nowtime=time();
-				$redis = connectionRedis();
+				//$redis = connectionRedis();
 				$time=$nowtime + 60*60*1;
 				$live=M("users_live")->field("uid")->where("islive='1'")->select();
 				foreach($live as $k=>$v){
-					$redis -> hSet($v['uid'] . 'shutup',$id,$time);
+				//	$redis -> hSet($v['uid'] . 'shutup',$id,$time);
 				}
-				$redis -> close();	
+			//	$redis -> close();
     			$this->success("会员拉黑成功！");
     		} else {
     			$this->error('会员拉黑失败！');
@@ -195,9 +195,9 @@ class IndexadminController extends AdminbaseController {
     		$rst = M("Users")->where(array("id"=>$id,"user_type"=>2))->setField('issuper','0');
 			$rst = M("users_super")->where("uid='{$id}'")->delete();
     		if ($rst!==false) {
-				$redis = connectionRedis();
-				$redis  -> hDel('super',$id);
-				$redis -> close();
+//				$redis = connectionRedis();
+//				$redis  -> hDel('super',$id);
+//				$redis -> close();
     			$this->success("会员取超管成功！");
     		} else {
     			$this->error('会员取消超管失败！');
@@ -213,9 +213,9 @@ class IndexadminController extends AdminbaseController {
 			$rst = M("Users")->where(array("id"=>$id,"user_type"=>2))->setField('issuper','1');
     		$rst = M("users_super")->add(array('uid'=>$id,'addtime'=>time()));
     		if ($rst!==false) {
-				$redis = connectionRedis();
-				$redis  -> hset('super',$id,'1');
-				$redis -> close();
+//				$redis = connectionRedis();
+//				$redis  -> hset('super',$id,'1');
+//				$redis -> close();
     			$this->success("会员设置超管成功！");
     		} else {
     			$this->error('会员设置超管失败！');

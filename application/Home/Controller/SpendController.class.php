@@ -90,9 +90,9 @@ class SpendController extends HomebaseController {
 		delCache("userinfo_".$touid); 
 		$gifttoken=md5(md5('sendGift'.$uid.$touid.$giftid.$giftcount.$total.$showid.$addtime));
 		$result=array("uid"=>(int)$uid,"giftid"=>(int)$giftid,"giftcount"=>(int)$giftcount,"totalcoin"=>$total,"giftname"=>$giftinfo['giftname'],"gifticon"=>$giftinfo['gifticon'],"level"=>$level,"coin"=>$userinfo2['coin'],"votestotal"=>$userinfo2['votestotal']);
-		$redis = connectionRedis();
-		$redis  -> set($gifttoken,json_encode($result));
-		$redis -> close();	
+//		$redis = connectionRedis();
+//		$redis  -> set($gifttoken,json_encode($result));
+//		$redis -> close();
 		$evensend="n";
 		if($giftinfo['type']==1)
 		{
@@ -159,9 +159,9 @@ class SpendController extends HomebaseController {
 		$rs['info']=$result;
 		/*写入 redis*/
 		unset($result['barragetoken']);
-		$redis =connectionRedis();
-		$redis -> set($barragetoken,json_encode($result));
-		$redis -> close();
+//		$redis =connectionRedis();
+//		$redis -> set($barragetoken,json_encode($result));
+//		$redis -> close();
 		
 		echo json_encode($rs);
 	
@@ -250,8 +250,9 @@ class SpendController extends HomebaseController {
 		}
 		
 		$nowtime=time();
-		$redis = connectionRedis();
-		$result=$redis -> hGet($showid . 'shutup',$touid);
+//		$redis = connectionRedis();
+//		$result=$redis -> hGet($showid . 'shutup',$touid);
+		$result=0;
 		if($result){
 			if($nowtime<$result){
 				$rs["code"]=1003;
@@ -262,8 +263,8 @@ class SpendController extends HomebaseController {
 		}
 		$configpri=getConfigPri();
 		$time=$nowtime + $configpri['shut_time'];
-		$redis -> hSet($showid . 'shutup',$touid,$time);
-		$redis -> close();
+//		$redis -> hSet($showid . 'shutup',$touid,$time);
+//		$redis -> close();
 		$rs["info"]['shut_time']=$configpri['shut_time'].'秒';
 		echo  json_encode($rs);
 		exit;
@@ -277,13 +278,14 @@ class SpendController extends HomebaseController {
 		{
 			$admin = getIsAdmin($uid,$showid);
 			$rs['admin']=$admin;
-			$redis = connectionRedis();
-			$result=$redis -> hGet($showid . 'shutup',$uid);
+//			$redis = connectionRedis();
+			$result=[];
+//			$result=$redis -> hGet($showid . 'shutup',$uid);
 			if($result)
 			{
 				if($nowtime>$result)
 				{
-					$result=$redis -> hDel($showid . 'shutup',$uid);
+//					$result=$redis -> hDel($showid . 'shutup',$uid);
 					$rs['info']=0;
 				}else{
 						$rs['info']=1;
@@ -293,7 +295,7 @@ class SpendController extends HomebaseController {
 			{
 				$rs['info']=0;
 			}
-			$redis -> close();				
+//			$redis -> close();
 		}
 		echo  json_encode($rs);
 		exit;
@@ -339,9 +341,9 @@ class SpendController extends HomebaseController {
 		$configpri=getConfigPri();
 		$nowtime=time();
 		$time=$nowtime+ $configpri['kick_time'];
-		$redis = connectionRedis();
-		$result=$redis  -> hset($showid.'kick',$touid,$time);
-		$redis -> close();
+//		$redis = connectionRedis();
+//		$result=$redis  -> hset($showid.'kick',$touid,$time);
+//		$redis -> close();
 		echo  json_encode($rs);
 		exit;	
 	}
@@ -649,11 +651,11 @@ class SpendController extends HomebaseController {
 		 $result=array("type"=>'expend',"action"=>$action,"uid"=>$uid,"touid"=>$touid,"giftid"=>$giftid,"giftcount"=>$giftcount,"totalcoin"=>$total,"showid"=>$showid,"addtime"=>$addtime,"gifttoken"=>$gifttoken,"giftname"=>$keeperinfo['title'],"nicename"=>$userinfo['user_nicename'],"avatar"=>$userinfo['avatar'],"level"=>$level);
 		 
 		
-		$redis = connectionRedis();
+//		$redis = connectionRedis();
 		
-		$redis  -> set($result['gifttoken'],json_encode($result));
+//		$redis  -> set($result['gifttoken'],json_encode($result));
 		
-		$redis -> close();	
+//		$redis -> close();
 		
 
 		$data['errno']=0;

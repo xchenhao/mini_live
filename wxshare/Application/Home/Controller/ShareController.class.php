@@ -375,9 +375,9 @@ class ShareController extends Controller {
 			$token =$info['sign'] ;
 		}			
 
-		$redis = connectionRedis();
-		$redis  -> set($token,json_encode($info));
-		$redis -> close();	
+//		$redis = connectionRedis();
+//		$redis  -> set($token,json_encode($info));
+//		$redis -> close();
 		$data=array(
 			'error'=>0,
 			'userinfo'=>$info,
@@ -457,9 +457,9 @@ class ShareController extends Controller {
 		$gifttoken=md5(md5('sendGift'.$uid.$touid.$giftid.$giftcount.$total.$showid.$addtime));
 
 		$result=array("uid"=>(int)$uid,"giftid"=>(int)$giftid,"giftcount"=>(int)$giftcount,"totalcoin"=>$total,"giftname"=>$giftinfo['giftname'],"gifticon"=>$giftinfo['gifticon'],"level"=>$level,"coin"=>$userinfo2['coin'],"votestotal"=>$userinfo2['votestotal']);
-		$redis = connectionRedis();
-		$redis  -> set($gifttoken,json_encode($result));
-		$redis -> close();	
+//		$redis = connectionRedis();
+//		$redis  -> set($gifttoken,json_encode($result));
+//		$redis -> close();
 		$evensend="n";
 		if($giftinfo['type']==1)
 		{

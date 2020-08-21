@@ -24,7 +24,7 @@ class IndexController extends HomebaseController {
 		/* 右侧广告 */
 		$ads=M("ads")->where("sid='1'")->order("orderno asc")->limit(7)->select();
 		$this->assign('ads',$ads);
-		$redis =connectionRedis();	
+//		$redis =connectionRedis();
 		/* 推荐 */
 		$recommend=M("users_live l")
 					->field("l.user_nicename,l.avatar,l.thumb,l.uid,l.stream")
@@ -38,10 +38,10 @@ class IndexController extends HomebaseController {
 			{
 				$recommend[$k]['thumb']=$v['avatar'];
 			} 
-			$nums=$redis->hlen('userlist_'.$v['stream']);
-			$recommend[$k]['nums']=$nums;
+//			$nums=$redis->hlen('userlist_'.$v['stream']);
+			$recommend[$k]['nums']=0;
 		}
-		$redis->close();
+//		$redis->close();
 		$this->assign("recommend",$recommend);
 
 		/* 热门 */
