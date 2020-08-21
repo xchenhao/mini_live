@@ -1,13 +1,13 @@
 <tc_include file="Public:header" />
 <tc_include file="Public:navbar_fluid" />
 
-<body class="home-index">
-<div class="jumbotron">
+<body class="home-index" style="min-width: 1200px;">
+<div class="jumbotron" style="min-width: 1200px;">
 		<div class="zhiboBox">
 				<div class="module-title">
 						<h2><em>Live online</em>在线直播中</h2>
 				</div>
-				<div class="container m-list menuList">
+				<div class="container m-list menuList" style="min-width: 1140px;">
 						<volist name="live_show" id="v" mod="2" key ='k'>
 						<?php if($k==1){?>
 							<div class="row m-list-item" onClick="window.location.href='/index.php?g=portal&m=page&a=record&id=11958';">
@@ -33,7 +33,15 @@
 										>
 										<eq name="mod" value="1"> <img src="{$v['thumb']}" class="img-fluid">
 												<else />
-												<h5 class="username"> <img src="{$v['thumb']}" class="img-fluid"> {$v['user_nicename']} <span class="showTime">{$live_show_time}</span></h5>
+												<h5 class="username">
+													<div style="display: inline-block; width: 45px; height: 45px; overflow: hidden; border-radius: 50%;">
+														<img src="{$v['thumb']}" class="img-fluid" style="width: 100%; height: auto; margin: 0">
+													</div>
+													<div style="display: inline-block; width: 100px; height: 45px; overflow: hidden">
+														<p>{$v['user_nicename']}</p>
+														<span class="showTime">{$live_show_time}</span>
+													</div>
+												</h5>
 												<div class="description" id="user{$v['uid']}">
 														<p>
 																<if condition="$v['description'] neq ''"> {$v['description']}
@@ -42,7 +50,15 @@
 														</p>
 												</div>
 										</eq>
-										<h5 class="username"> <img src="{$v['thumb']}" class="img-fluid"> {$v['user_nicename']} <span class="showTime">{$live_show_time}</span></h5>
+									<h5 class="username">
+										<div style="display: inline-block; width: 45px; height: 45px; overflow: hidden; border-radius: 50%;">
+											<img src="{$v['thumb']}" class="img-fluid" style="width: 100%; height: auto; margin: 0">
+										</div>
+										<div style="display: inline-block; width: 100px; height: 45px; overflow: hidden">
+											<p>{$v['user_nicename']}</p>
+											<span class="showTime">{$live_show_time}</span>
+										</div>
+									</h5>
 								</div>
 						</div>
 						<div class="col-md-12 m-item <eq name="mod" value="1">
@@ -65,7 +81,15 @@
 										<else />
 										<img src="{$v['thumb']}" class="img-fluid"> </eq>
 								<if condition="$k neq 4">
-										<h5 class="username"> <img src="{$v['thumb']}" class="img-fluid"> {$v['user_nicename']} <span class="showTime">{$live_show_time}</span></h5>
+									<h5 class="username">
+										<div style="display: inline-block; width: 45px; height: 45px; overflow: hidden; border-radius: 50%;">
+											<img src="{$v['thumb']}" class="img-fluid" style="width: 100%; height: auto; margin: 0">
+										</div>
+										<div style="display: inline-block; width: 100px; height: 45px; overflow: hidden">
+											<p>{$v['user_nicename']}</p>
+											<span class="showTime">{$live_show_time}</span>
+										</div>
+									</h5>
 								</if>
 						</div>
 				</div>
@@ -77,16 +101,19 @@
 		<h3>公司简介</h3>
 		<p>北京喵斯拉网络科技有限公司成立于2014年07月28日，注册地位于北京市朝阳区阜通东大街1号院5号楼2单元18层321801。经营范围包括技术推广服务；组织文化艺术交流活动（不含演出）；设计、制作、代理、发布广告；经济贸易咨询；企业管理咨询；市场调查；销售计算机、软件及辅助设备、服装、鞋帽、玩具、文具用品、电子产品、工艺品、日用品；计算机系统服务；企业策划；票务代理（不含航空机票销售代理）；出版物零售；从事互联网文化活动；广播电视节目制作；销售食品；演出经纪；音像制品制作...</p>
 </div>
-<div class="mainBox clearfix">
-		<div class="container">
+<div class="mainBox clearfix" style="min-width:1140px;">
+		<div class="container" style="min-width:1140px; max-width: 1200px;">
 				<div class="module-title">
 						<h2><em>Wonderful playback</em>精彩回放中</h2>
 				</div>
-				<div class="row m-list">
+				<div class="row m-list" style="min-width:1140px;">
 						<volist name="live_record" id="v">
-								<div class="col-md-3 m-item record-live" onClick="window.location.href='/index.php?g=portal&m=page&a=record&id={$v['uid']}';">
-										<div class="item"> <img src="{$v['thumb']}" class="img-fluid">
-												<h5 class="username"> <img src="{$v['thumb']}" class="img-fluid"> {$v['user_nicename']} </h5>
+								<div class="col-md-3 m-item record-live" style="width: 292px" onClick="window.location.href='/index.php?g=portal&m=page&a=record&id={$v['uid']}';">
+										<div class="item">
+											<img src="{$v['thumb']}" class="img-fluid">
+												<h5 class="username" style="text-align: center; bottom: -5px; padding: 0 20px;">
+													<img src="{$v['thumb']}" class="img-fluid"> {$v['user_nicename']}
+												</h5>
 										</div>
 								</div>
 						</volist>
