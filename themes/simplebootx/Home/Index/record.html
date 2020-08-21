@@ -12,7 +12,9 @@
 								<volist name="live_record" id="v">
 										<div class="col-md-3 m-item record-live" style="width: 292px"onClick="window.location.href='/index.php?g=portal&m=page&a=record&id={$v['uid']}';">
 												<div class="item"> <img src="{$v['thumb']}" class="img-fluid">
-														<h5 class="username"> <img src="{$v['thumb']}" class="img-fluid"> {$v['user_nicename']} </h5>
+														<h5 class="username" style="text-align: center; bottom: -5px; padding: 0 20px;">
+															<img src="{$v['thumb']}" class="img-fluid"> {$v['user_nicename']}
+														</h5>
 												</div>
 										</div>
 								</volist>
