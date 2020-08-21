@@ -2,8 +2,7 @@
 /**
  * 配置文件
  */
-return array(
-//    'DB_TYPE' => 'mysqli',
+return [
     'DB_TYPE' => 'mysql',
     'DB_HOST' => 'localhost',
     'DB_NAME' => 'mql',
@@ -17,7 +16,7 @@ return array(
 	'REDIS_AUTH' => '',
 	'REDIS_PORT' => '',
     //密钥
-    "AUTHCODE" => '',
+    'AUTHCODE' => '',
     //cookies
-    "COOKIE_PREFIX" => 'AJ1sOD_',
-);
+    'COOKIE_PREFIX' => 'AJ1sOD_',
+];
