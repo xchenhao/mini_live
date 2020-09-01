@@ -36,14 +36,18 @@ class HomebaseController extends AppframeController {
 		$this->assign("getConfigName",$getConfigName);
 		//if(sp_is_user_login()){
 		if(cookie("uid")){
-			$uid=cookie("uid");
+			$uid=(int)cookie("uid");
 			$token=cookie("token");
-			session("uid",$uid);	
-			session("token",$token);	
-			//$this->assign("user",sp_get_current_user());
-			$this->assign("user",getUserPrivateInfo($uid));
-			$this->assign("userinfo",json_encode( getUserPrivateInfo($uid) ) );
-		 
+            $user=M("users")->field('token')->where("id='{$uid}'")->find();
+            if (!$user || $user['token'] != $token) {
+                $this->assign("userinfo",'nul');
+            } else {
+                session("uid",$uid);
+                session("token",$token);
+                //$this->assign("user",sp_get_current_user());
+                $this->assign("user",getUserPrivateInfo($uid));
+                $this->assign("userinfo",json_encode( getUserPrivateInfo($uid) ) );
+            }
 		}else{
 			$this->assign("userinfo",'null' );  
 		}
