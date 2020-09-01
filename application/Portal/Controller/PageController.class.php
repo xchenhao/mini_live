@@ -10,7 +10,7 @@ namespace Portal\Controller;
 use Common\Controller\HomebaseController;
 class PageController extends HomebaseController{
 	public function index() {
-		$id=$_GET['id'];
+		$id=(int)$_GET['id'];
 		$content=sp_sql_page($id);
 		
 		if(empty($content)){
@@ -52,7 +52,7 @@ class PageController extends HomebaseController{
 	}	
 	
 	public function news() {
-		$id=$_GET['id'];
+		$id=(int)$_GET['id'];
 		$news=M("posts")->field("post_title,post_content")->where("id='$id'")->find();
 		$this->assign("title",$news["post_title"]);
 		$this->assign("news",$news);
@@ -62,7 +62,7 @@ class PageController extends HomebaseController{
 	
 	//回放页面
 	public function record(){
-		$id=$_GET['id'];
+		$id=(int)$_GET['id'];
 		$anchorinfo=getUserInfo($id);
 		$this->assign("title", "精彩回放");
 		$this->assign("isplay", 1);
@@ -78,7 +78,7 @@ class PageController extends HomebaseController{
 	}
 	
 	public function start_live(){
-		$uid=$_GET['uid'];
+		$uid=(int)$_GET['uid'];
 		$pull=$_GET['pull'];
 		$error = null;
 		//获取用户
@@ -116,7 +116,7 @@ class PageController extends HomebaseController{
 	}
 	
 	public function stop_live(){
-		$uid=$_GET['uid'];
+		$uid=(int)$_GET['uid'];
 		M("users_live")->where("uid='{$uid}'")->save( array("islive"=>0) );
 		echo '[{"code":"0"}]';
 		// $this->assign("uid",$uid);
