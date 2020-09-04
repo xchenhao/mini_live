@@ -40,7 +40,7 @@ class HomebaseController extends AppframeController {
 			$token=cookie("token");
             $user=M("users")->field('token')->where("id='{$uid}'")->find();
             if (!$user || $user['token'] != $token) {
-                $this->assign("userinfo",'nul');
+                $this->assign("userinfo", 'null');
             } else {
                 session("uid",$uid);
                 session("token",$token);
@@ -49,7 +49,7 @@ class HomebaseController extends AppframeController {
                 $this->assign("userinfo",json_encode( getUserPrivateInfo($uid) ) );
             }
 		}else{
-			$this->assign("userinfo",'null' );  
+			$this->assign("userinfo",'null');
 		}
 		
 		/* 扩展配置 */
